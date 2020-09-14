@@ -42,7 +42,7 @@ public class Database extends SQLiteOpenHelper {
     }
 
     public Cursor read_database(){
-        String[] columns = {"nr","nazwa", "phosssto", "ingredient_1", "ingredient_2"};
+        String[] columns = {"nr","nazwa", "photo", "ingredient_1", "ingredient_2"};
         SQLiteDatabase db = getReadableDatabase();
         Cursor kursor = db.query("drinks", columns, null, null, null, null, null, null);
         return kursor;
