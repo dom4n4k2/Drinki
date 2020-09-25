@@ -9,6 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.LinkedList;
+import java.util.List;
+
 
 public class Database_managment extends SQLiteOpenHelper {
 
@@ -31,13 +34,13 @@ public class Database_managment extends SQLiteOpenHelper {
 
     }
 
-    public  void add_drink(String nazwa, String photo, String ingredient_1, String ingredient_2){
+    public  void add_drink(Drinks_database drinks_database){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues wartosci = new ContentValues();
-        wartosci.put("nazwa", nazwa);
-        wartosci.put("photo", photo);
-        wartosci.put("ingredient_1", ingredient_1);
-        wartosci.put("ingredient_2", ingredient_2);
+        wartosci.put("nazwa", drinks_database.getNazwa());
+        wartosci.put("photo", drinks_database.getPhoto());
+        wartosci.put("ingredient_1", drinks_database.getIngredient_1());
+        wartosci.put("ingredient_2", drinks_database.getIngredient_2());
         db.insertOrThrow("drinks", null, wartosci);
 
     }
@@ -47,46 +50,55 @@ public class Database_managment extends SQLiteOpenHelper {
         db.delete("drinks","nr=?", arguments);
     }
 
-    public void update_drink(int nr, String nazwa, String photo, String ingredient_1, String ingredient_2){
+    public void update_drink(Drinks_database drinks_database){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues wartosci = new ContentValues();
-        wartosci.put("nazwa", nazwa);
-        wartosci.put("photo", photo);
-        wartosci.put("ingredient_1", ingredient_1);
-        wartosci.put("ingredient_2", ingredient_2);
-        String args[] = {nr+""};
+        wartosci.put("nazwa", drinks_database.getNazwa());
+        wartosci.put("photo", drinks_database.getPhoto());
+        wartosci.put("ingredient_1", drinks_database.getIngredient_1());
+        wartosci.put("ingredient_2", drinks_database.getIngredient_2());
+        String args[] = {drinks_database.getNr()+""};
         db.update("drinks", wartosci,"nr=?" , args);
     }
 
-    public Cursor read_database(){
-        String[] columns = {"nr","nazwa", "photo", "ingredient_1", "ingredient_2"};
+    public List<Drinks_database> read_database() {
+        List<Drinks_database> drinks_databaseList = new LinkedList<Drinks_database>();
+        String[] columns = {"nr", "nazwa", "photo", "ingredient_1", "ingredient_2"};
         SQLiteDatabase db = getReadableDatabase();
         Cursor kursor = db.query("drinks", columns, null, null, null, null, null, null);
-        return kursor;
+        while (kursor.moveToNext()) {
+            Drinks_database drinks_database = new Drinks_database();
+            drinks_database.setNr(kursor.getLong(0));
+            drinks_database.setNazwa(kursor.getString(1));
+            drinks_database.setPhoto(kursor.getString(2));
+            drinks_database.setIngredient_1(kursor.getString(3));
+            drinks_database.setIngredient_2(kursor.getString(4));
+            drinks_databaseList.add(drinks_database);
+
+        }
+        return drinks_databaseList;
     }
 
 
-
-     /*
 
     public Drinks_database get_drink(int nr){
         Drinks_database drinks_database = new Drinks_database();
         SQLiteDatabase db = getReadableDatabase();
         String[] columns = {"nr","nazwa", "photo", "ingredient_1", "ingredient_2"};
         String args[] = {nr +" "};
-        Cursor kursor = db.query("drinks", columns, " nr=?", null, null, null, null, null);
+        Cursor kursor = db.query("drinks", columns, " nr=?", args, null, null, null, null);
         if (kursor != null){
             kursor.moveToFirst();
             drinks_database.setNr(kursor.getLong(0));
-            drinks_database.setNazwa_drinka(kursor.getString(1));
-            drinks_database.setSciezka(kursor.getString(2));
+            drinks_database.setNazwa(kursor.getString(1));
+            drinks_database.setPhoto(kursor.getString(2));
             drinks_database.setIngredient_1(kursor.getString(3));
             drinks_database.setIngredient_2(kursor.getString(4));
         }
         return drinks_database;
     }
 
-      */
+
 
 
 }

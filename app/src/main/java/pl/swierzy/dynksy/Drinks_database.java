@@ -1,11 +1,30 @@
 package pl.swierzy.dynksy;
 
 public class Drinks_database {
-   /* private Long nr;
-    private String nazwa_drinka;
-    private String sciezka;
+
+    private Long nr;
+
+
+    private String nazwa;
+    private String photo;
     private String ingredient_1;
     private String ingredient_2;
+
+    public String getNazwa() {
+        return nazwa;
+    }
+
+    public void setNazwa(String nazwa) {
+        this.nazwa = nazwa;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
 
     public Long getNr() {
         return nr;
@@ -15,21 +34,7 @@ public class Drinks_database {
         this.nr = nr;
     }
 
-    public String getNazwa_drinka() {
-        return nazwa_drinka;
-    }
 
-    public void setNazwa_drinka(String nazwa_drinka) {
-        this.nazwa_drinka = nazwa_drinka;
-    }
-
-    public String getSciezka() {
-        return sciezka;
-    }
-
-    public void setSciezka(String sciezka) {
-        this.sciezka = sciezka;
-    }
 
     public String getIngredient_1() {
         return ingredient_1;
@@ -48,5 +53,5 @@ public class Drinks_database {
     }
 
 
-    */
+
 }
