@@ -34,9 +34,9 @@ public class drinks extends MainActivity {
 
         Database_managment data_b = new Database_managment(this);
 
-        //data_b.add_drink("drink 1", "sciezka photo", "skladnik 1", "skladnik 2");
-        //data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
-        //data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
+        data_b.add_drink("drink 1", "sciezka photo", "skladnik 1", "skladnik 2");
+        data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
+        data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
 
         //Cursor k = data_b.read_database();
 
@@ -65,7 +65,7 @@ public class drinks extends MainActivity {
 */
 
     for(Drinks_database d:data_b.read_database()){
-        Log.e("Dane z bazy  :", d.getNr() + " " + d.getNazwa() + " " + d.getPhoto() + " " +d.getIngredient_1() + " " +d.getIngredient_2());
+        Log.e("Dane z bazy  :", d.getNr() + " " + d.getNazwa() + " " + d.getPhoto() + " " +d.getS1() + " " +d.getS2());
     }
 
     }
