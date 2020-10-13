@@ -89,25 +89,7 @@ public class Database_managment extends SQLiteOpenHelper {
     }
 
 
-/*
-    public Drinks_database get_drink(int nr){
-        Drinks_database drinks_database = new Drinks_database();
-        SQLiteDatabase db = getReadableDatabase();
-        String[] columns = {"nr","nazwa", "photo", "ingredient_1", "ingredient_2"};
-        String args[] = {nr +" "};
-        Cursor kursor = db.query("drinks", columns, " nr=?", args, null, null, null, null);
-        if (kursor != null){
-            kursor.moveToFirst();
-            drinks_database.setNr(kursor.getLong(0));
-            drinks_database.setNazwa(kursor.getString(1));
-            drinks_database.setPhoto(kursor.getString(2));
-            drinks_database.setIngredient_1(kursor.getString(3));
-            drinks_database.setIngredient_2(kursor.getString(4));
-        }
-        return drinks_database;
-    }
 
-*/
 
 
 }

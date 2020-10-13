@@ -34,11 +34,11 @@ public class drinks extends MainActivity {
 
         Database_managment data_b = new Database_managment(this);
 
-        data_b.add_drink("drink 1", "sciezka photo", "skladnik 1", "skladnik 2");
-        data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
-        data_b.add_drink("drink 2", "sciezka photo 2", "skladnik 5", "skladnik 6");
 
-        //Cursor k = data_b.read_database();
+Drinks_database drink_1 = new Drinks_database();
+drink_1.setNr((long) 1);
+drink_1.setNazwa("kurwamac");
+data_b.add_drink(drink_1);
 
 
         for(int i =4; i<= 1000;i++){
@@ -47,25 +47,11 @@ public class drinks extends MainActivity {
 
 
 
-        //data_b.update_drink(1, "dupaa", "dup3a", "dup3a", "dup4a");
-        /*
-        while(k.moveToNext()){
-            int nr = k.getInt(0);
-            String nazwa_drinka = k.getString(1);
-            String sciezka = k.getString(2);
-            String skladnik_1 = k.getString(3);
-            String skladnik_2 = k.getString(4);
-            tv.setText(tv.getText()+"\n"+nr+" "+nazwa_drinka+" "+sciezka+" "+skladnik_1+" "+skladnik_2);
-        }
 
-         */
-/*
-        Drinks_database d = data_b.get_drink(2);
-        tv.setText(d.getNazwa() + "-" + d.getPhoto() + "-" + d.getIngredient_1() + "-" + d.getIngredient_2());
-*/
+
 
     for(Drinks_database d:data_b.read_database()){
-        Log.e("Dane z bazy  :", d.getNr() + " " + d.getNazwa() + " " + d.getPhoto() + " " +d.getS1() + " " +d.getS2());
+        tv.setText("Dane z bazy  :"+ d.getNr() + " " + d.getNazwa() + " " + d.getPhoto() + " " +d.getS1() + " " +d.getS2());
     }
 
     }
