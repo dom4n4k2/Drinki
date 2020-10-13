@@ -34,14 +34,15 @@ public class drinks extends MainActivity {
 
         Database_managment data_b = new Database_managment(this);
 
-
-Drinks_database drink_1 = new Drinks_database();
-drink_1.setNr((long) 1);
-drink_1.setNazwa("kurwamac");
+/*
+drink_add_class drink_1 = new drink_add_class();
+drink_1.setNazwa_drink("kurwamac");
 data_b.add_drink(drink_1);
 
 
-        for(int i =4; i<= 1000;i++){
+ */
+
+        for(int i =1; i<= 1000;i++){
             data_b.delete_drink(i);
         }
 
@@ -50,8 +51,8 @@ data_b.add_drink(drink_1);
 
 
 
-    for(Drinks_database d:data_b.read_database()){
-        tv.setText("Dane z bazy  :"+ d.getNr() + " " + d.getNazwa() + " " + d.getPhoto() + " " +d.getS1() + " " +d.getS2());
+    for(drink_add_class d:data_b.read_drink()){
+        tv.setText("Dane z bazy  :"+ d.getNr_drink() + " " + d.getNazwa_drink() + " " + d.getPhoto_drink() + " " +d.getS1_drink() + " " +d.getS2_drink());
     }
 
     }
