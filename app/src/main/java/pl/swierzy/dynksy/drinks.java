@@ -1,11 +1,6 @@
 package pl.swierzy.dynksy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -32,27 +27,26 @@ public class drinks extends MainActivity {
         tv.setText("taki sobie teskt");
 
 
-        Database_managment data_b = new Database_managment(this);
-
-/*
-drink_add_class drink_1 = new drink_add_class();
-drink_1.setNazwa_drink("kurwamac");
-data_b.add_drink(drink_1);
-
-
- */
-
-        for(int i =1; i<= 1000;i++){
-            data_b.delete_drink(i);
-        }
 
 
 
 
 
+        Database_management data_b = new Database_management(this);
 
     for(drink_add_class d:data_b.read_drink()){
-        tv.setText("Dane z bazy  :"+ d.getNr_drink() + " " + d.getNazwa_drink() + " " + d.getPhoto_drink() + " " +d.getS1_drink() + " " +d.getS2_drink());
+        tv.setText("Dane z bazy  :\n"+ d.getNr_drink() +
+                "\n" + d.getNazwa_drink()+
+                "\n" + d.getPhoto_drink()+
+                "\n" +d.getS1_drink()+
+                "\n" +d.getS2_drink()+
+                "\n" +d.getS3_drink()+
+                "\n" +d.getS4_drink()+
+                "\n" +d.getS5_drink()+
+                "\n" +d.getS6_drink()+
+                "\n" +d.getS7_drink()+
+                "\n" +d.getS8_drink()+
+                "\n" +d.getInstruction_drink());
     }
 
     }

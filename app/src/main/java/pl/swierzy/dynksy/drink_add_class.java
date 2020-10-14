@@ -1,6 +1,20 @@
 package pl.swierzy.dynksy;
 
-public class drink_add_class {
+public class drink_add_class{
+
+
+    private Long nr_drink;
+    private String nazwa_drink;
+    private String photo_drink;
+    private String S1_drink;
+    private String S2_drink;
+    private String S3_drink;
+    private String S4_drink;
+    private String S5_drink;
+    private String S6_drink;
+    private String S7_drink;
+    private String S8_drink;
+    private String Instruction_drink;
 
     public Long getNr_drink() {
         return nr_drink;
@@ -98,17 +112,6 @@ public class drink_add_class {
         Instruction_drink = instruction_drink;
     }
 
-    private Long nr_drink;
-    private String nazwa_drink;
-    private String photo_drink;
-    private String S1_drink;
-    private String S2_drink;
-    private String S3_drink;
-    private String S4_drink;
-    private String S5_drink;
-    private String S6_drink;
-    private String S7_drink;
-    private String S8_drink;
-    private String Instruction_drink;
+
 
 }

@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Proste Drinki i Shoty</string>
-    <string name="button_main_1">START 1</string>
-    <string name="button_main_2">START 2</string>
-    <string name="button_main_3">START 3</string>
+    <string name="update_button_main">UPDATE</string>
+    <string name="delete_button_main">DELETE</string>
     <string name="drinks_button_1"> BACK </string>
     <string name="start_text">Aplikacja do komponowania drinków i shotów</string>
     <string name="drinks_text">DRINKS</string>
