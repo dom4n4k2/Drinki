@@ -31,7 +31,7 @@
         android:layout_marginHorizontal="300dp"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
-        android:onClick="main_update_void"
+        android:onClick="main_update_button_void"
   />
 
     <Button
@@ -44,7 +44,7 @@
         android:layout_marginHorizontal="300dp"
         android:layout_marginTop="100dp"
         android:layout_below="@+id/textView"
-        android:onClick="main_delete_void"
+        android:onClick="main_delete_button_void"
         />
 
 
@@ -57,7 +57,7 @@
         android:padding="0dp"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/drink"
-        android:onClick="main_drinks_void"/>
+        android:onClick="main_drinks_button_void"/>
 
     <ImageButton
         android:id="@+id/shots_button_main"
@@ -68,7 +68,7 @@
         android:padding="0dp"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/shot"
-        android:onClick="main_shots_void"/>
+        android:onClick="main_shots_button_void"/>
     <ImageButton
         android:id="@+id/cart_button_main"
         android:layout_width="90dp"
@@ -78,7 +78,7 @@
         android:padding="0dp"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/cart"
-        android:onClick="main_cart_void"/>
+        android:onClick="main_cart_button_void"/>
 
 
 </RelativeLayout>

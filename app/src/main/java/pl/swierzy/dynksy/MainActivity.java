@@ -1,7 +1,6 @@
 package pl.swierzy.dynksy;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,19 +8,19 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import pl.swierzy.dynksy.database_content;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    public void main_drinks_void(View V){
+    public void main_drinks_button_void(View V){
         Toast.makeText(getApplicationContext(),"DRINKS", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(MainActivity.this, drinks.class);
         startActivity(i);
 
     }
 
-
-    public void main_update_void(View V){
+    public void main_update_button_void(View V){
         Toast.makeText(getApplicationContext(),"UPDATE", Toast.LENGTH_SHORT).show();
         Database_management data_b = new Database_management(this);
         drink_add_class drink_1 = new drink_add_class();
@@ -40,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         data_b.add_drink(drink_1);
     }
 
-
-    public void main_delete_void(View V){
+    public void main_delete_button_void(View V){
         Toast.makeText(getApplicationContext(),"DELETE", Toast.LENGTH_SHORT).show();
         Database_management data_b = new Database_management(this);
 
@@ -51,11 +49,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void main_shots_void(View V){
+
+
+
+
+    public void main_shots_button_void(View V){
         Toast.makeText(getApplicationContext(),"SHOTS", Toast.LENGTH_SHORT).show();
     }
 
-    public void main_cart_void(View V){
+    public void main_cart_button_void(View V){
         Toast.makeText(getApplicationContext(),"CART", Toast.LENGTH_SHORT).show();
     }
 
