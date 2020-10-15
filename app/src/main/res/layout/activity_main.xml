@@ -35,17 +35,19 @@
   />
 
     <Button
-        android:id="@+id/delete_button_main"
+        android:id="@+id/clear_button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/start_button_color_background"
         android:textColor="@color/start_button_color_text"
-        android:text="@string/delete_button_main"
+        android:text="@string/clear_button_main"
         android:layout_marginHorizontal="300dp"
         android:layout_marginTop="100dp"
         android:layout_below="@+id/textView"
-        android:onClick="main_delete_button_void"
+        android:onClick="main_clear_button_void"
         />
+
+
 
 
     <ImageButton

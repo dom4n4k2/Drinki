@@ -17,7 +17,7 @@ public class Database_management extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db){
         db.execSQL(
                 "create table drinks("+
-                "nr_drink integer primary key autoincrement,"+
+                "nr_drink integer primary key,"+
                 "nazwa_drink text,"+
                 "photo_drink text,"+
                 "S1_drink text,"+
@@ -60,6 +60,8 @@ public class Database_management extends SQLiteOpenHelper {
         String[] arguments = {""+id};
         db.delete("drinks","nr_drink=?", arguments);
     }
+
+
 
     public void update_drink(drink_add_class drinks_database){
         SQLiteDatabase db = getWritableDatabase();

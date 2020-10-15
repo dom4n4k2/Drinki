@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Context;
+
 
 
 public class drinks extends MainActivity {
@@ -16,12 +18,16 @@ public class drinks extends MainActivity {
         finish();
     }
 
+
+
+
     Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_layout);
         back = (Button) findViewById(R.id.drinks_button_back);
+
 
         TextView tv = (TextView) findViewById(R.id.textView_drinks);
         tv.setText("taki sobie teskt");
