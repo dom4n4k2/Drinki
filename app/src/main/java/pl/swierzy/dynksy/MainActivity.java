@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         database_content content = new database_content();
         content.drink_1(context);
         content.drink_2(context);
+        content.drink_3(context);
     }
 
     public void main_clear_button_void(View V){

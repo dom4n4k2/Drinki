@@ -40,6 +40,10 @@ public class database_content extends drinks {
         drink_1.setInstruction_drink("Instruction");
         data_b.add_drink(drink_1);
     }
+    public void drink_3(Context context){
+
+    }
+
 
     }
 
