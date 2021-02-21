@@ -1,13 +1,26 @@
 package pl.swierzy.dynksy;
 import android.content.Context;
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
+
+import android.os.Environment;
+import android.util.Log;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.FileReader;
 
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 public class database_content extends drinks {
 
     public void drink_read_from_csv(Context context){
         Database_management data_b = new Database_management(context);
         drink_add_class drink_1 = new drink_add_class();
+
+
+
         drink_1.setNr_drink((long)1);
         drink_1.setNazwa_drink("kurwamac");
         drink_1.setPhoto_drink("ochuj");
@@ -21,7 +34,8 @@ public class database_content extends drinks {
         drink_1.setS8_drink("S8");
         drink_1.setInstruction_drink("Instruction");
         data_b.add_drink(drink_1);
-        }
+
+    }
 
 
 
