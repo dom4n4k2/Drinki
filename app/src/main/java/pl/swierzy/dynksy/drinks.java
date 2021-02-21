@@ -1,5 +1,6 @@
 package pl.swierzy.dynksy;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -23,6 +24,8 @@ public class drinks extends MainActivity {
 
 
     Button back;
+
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,10 +53,9 @@ public class drinks extends MainActivity {
                 "\n" +d.getInstruction_drink());
     }
 
- */
-
+*/
         for(drink_add_class d:data_b.read_drink()){
-            Log.d("Dane z bazy  :", d.getNr_drink() +
+            Log.d("DD::", d.getNr_drink() +
                     "  " + d.getNazwa_drink()+
                     "  " + d.getPhoto_drink()+
                     "  " +d.getS1_drink()+

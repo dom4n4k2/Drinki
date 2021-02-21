@@ -100,7 +100,6 @@ public class Database_management extends SQLiteOpenHelper {
             drinks_database.setS7_drink(kursor.getString(9));
             drinks_database.setS8_drink(kursor.getString(10));
             drinks_database.setInstruction_drink(kursor.getString(11));
-
             drinks_databaseList.add(drinks_database);
 
         }

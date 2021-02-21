@@ -21,9 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "UPDATE", Toast.LENGTH_SHORT).show();
         Context context = this;
         database_content content = new database_content();
-        content.drink_1(context);
-        content.drink_2(context);
-        content.drink_3(context);
+        content.drink_read_from_csv(context);
+
     }
 
     public void main_clear_button_void(View V){
