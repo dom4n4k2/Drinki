@@ -1,23 +1,21 @@
 package pl.swierzy.dynksy;
 import android.content.Context;
-import com.opencsv.CSVReader;
-import com.opencsv.exceptions.CsvValidationException;
-
-import android.os.Environment;
 import android.util.Log;
 
-import java.io.File;
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
 
-import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.Toast;
 
 public class database_content extends drinks {
 
     public void drink_read_from_csv(Context context){
         Database_management data_b = new Database_management(context);
         drink_add_class drink_1 = new drink_add_class();
+
+        prepArray(context);
 
 
 
@@ -38,7 +36,28 @@ public class database_content extends drinks {
     }
 
 
+    private void prepArray(Context context) {
+        InputStream is = context.getResources().openRawResource(R.raw.drinki);
+        BufferedReader reader = new BufferedReader( new InputStreamReader(is, Charset.forName("UTF-8")));
+        String line = "";
+
+        try {
+            reader.readLine();
+            while ((line = reader.readLine()) != null) {
+                Log.d("wtf", "Line: " + line);
+            }
+        } catch (IOException e){
+                Log.d("wtf","Error reading data file on line" + line, e);
+        }
+
+
+
 
     }
+
+    }
+
+
+
 
 
