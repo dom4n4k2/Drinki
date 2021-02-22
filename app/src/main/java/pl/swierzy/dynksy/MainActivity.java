@@ -18,10 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void main_update_button_void(View V) {
-        Toast.makeText(getApplicationContext(), "UPDATE", Toast.LENGTH_SHORT).show();
+        String messange;
         Context context = this;
         database_content content = new database_content();
-        content.drink_read_from_csv(context);
+        messange = content.drink_read_from_csv(context);
+        Toast.makeText(getApplicationContext(),messange, Toast.LENGTH_SHORT).show();
 
     }
 
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton cart;
     Button update;
     Button clear;
+    Integer database_version;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

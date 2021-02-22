@@ -11,48 +11,63 @@ import java.nio.charset.Charset;
 
 public class database_content extends drinks {
 
-    public void drink_read_from_csv(Context context){
+    public String drink_read_from_csv(Context context){
         Database_management data_b = new Database_management(context);
-        drink_add_class drink_1 = new drink_add_class();
+        drink_add_class drink = new drink_add_class();
 
-        prepArray(context);
-
-
-
-        drink_1.setNr_drink((long)1);
-        drink_1.setNazwa_drink("kurwamac");
-        drink_1.setPhoto_drink("ochuj");
-        drink_1.setS1_drink("S1");
-        drink_1.setS2_drink("S2");
-        drink_1.setS3_drink("S3");
-        drink_1.setS4_drink("S4");
-        drink_1.setS5_drink("S5");
-        drink_1.setS6_drink("S6");
-        drink_1.setS7_drink("S7");
-        drink_1.setS8_drink("S8");
-        drink_1.setInstruction_drink("Instruction");
-        data_b.add_drink(drink_1);
-
-    }
-
-
-    private void prepArray(Context context) {
         InputStream is = context.getResources().openRawResource(R.raw.drinki);
         BufferedReader reader = new BufferedReader( new InputStreamReader(is, Charset.forName("UTF-8")));
         String line = "";
 
+        Integer count = 0;
+        String return_status = null;
+
         try {
+
             reader.readLine();
             while ((line = reader.readLine()) != null) {
-                Log.d("wtf", "Line: " + line);
+                //Log.d("wtf", "Line: " + line);
+                String[] tokens = line.split(",");
+
+
+
+                if(count == 0 ) {
+                    Log.d("wtf", "1"+ String.valueOf(database_version));
+                    if(database_version == null){
+                        database_version = Integer.parseInt(tokens[11]);
+                        Log.d("wtf", "2"+ String.valueOf(database_version));
+                        return_status = "DATABASE WAS NULL";
+                    }
+                    if(database_version != Integer.parseInt(tokens[11])) {
+                        Log.d("wtf", "mnozenie :" + Integer.parseInt(tokens[11]) * database_version);
+                        Log.d("wtf", "3"+ String.valueOf(database_version));
+                        return_status = "DATABASE UPDATED";
+                        count = count + 1;
+                    }else{
+                        return_status = "NO NEED TO UPDATE";
+                    }
+                    count = count + 1;
+                }
+
+
+                drink.setNr_drink((long)1);
+                drink.setNazwa_drink(tokens[0]);
+                drink.setPhoto_drink(tokens[1]);
+                drink.setS1_drink(tokens[2]);
+                drink.setS2_drink(tokens[3]);
+                drink.setS3_drink(tokens[4]);
+                drink.setS4_drink(tokens[5]);
+                drink.setS5_drink(tokens[6]);
+                drink.setS6_drink(tokens[7]);
+                drink.setS7_drink(tokens[8]);
+                drink.setS8_drink(tokens[9]);
+                drink.setInstruction_drink(tokens[10]);
+                data_b.add_drink(drink);
             }
         } catch (IOException e){
-                Log.d("wtf","Error reading data file on line" + line, e);
+            Log.d("wtf","Error reading data file on line" + line, e);
         }
-
-
-
-
+        return return_status;
     }
 
     }
