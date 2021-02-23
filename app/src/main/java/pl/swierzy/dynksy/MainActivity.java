@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -21,10 +22,16 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void main_update_button_void(View V) {
+
+        prefs = this.getPreferences(Context.MODE_PRIVATE);
+        int database_version = getResources().getInteger(R.integer.database_version);
+        Log.d("wtf", "databaseversion: " + database_version);
         String messange;
+        Integer new_database_version;
         Context context = this;
         database_content content = new database_content();
-        messange = content.drink_read_from_csv(context);
+       messange, new_database_version = content.drink_read_from_csv(context, database_version);
+
         Toast.makeText(getApplicationContext(),messange, Toast.LENGTH_SHORT).show();
 
     }
@@ -70,9 +77,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        prefs = this.getPreferences(Context.MODE_PRIVATE);
-        int database_version = getResources().getInteger(R.integer.database_version);
-        Log.d("wtf", "databaseversion: " + database_version);
+
 
 
         setContentView(R.layout.activity_main);

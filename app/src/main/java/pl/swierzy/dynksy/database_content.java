@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
 public class database_content extends drinks {
 
 
-    public String drink_read_from_csv(Context context){
+    public String drink_read_from_csv(Context context, int database_version){
 
 
         Database_management data_b = new Database_management(context);
@@ -23,6 +23,7 @@ public class database_content extends drinks {
         String line = "";
         Integer count = 0;
         String return_status = null;
+        int return_database_version;
 
         try {
 
@@ -33,27 +34,31 @@ public class database_content extends drinks {
 
 
 
-                /*if(count == 0 ) {
-                    if(db_version == 0){
-                        SharedPreferences.Editor editor = getSharedPreferences("SharedVariables", MODE_PRIVATE).edit();
-                        editor.putInt("db_version", Integer.parseInt(tokens[11]));
-                        editor.apply();
+                if(count == 0 ) {
+                    if(database_version == 0){
+
+
+
+                        return_database_version = Integer.parseInt(tokens[11]);
+
                         return_status = "DATABASE WAS UPDATED FOR THE FIRST TIME";
                     }
-                    if(db_version != Integer.parseInt(tokens[11])) {
+                    /*if(db_version != Integer.parseInt(tokens[11])) {
                         SharedPreferences.Editor editor = getSharedPreferences("SharedVariables", MODE_PRIVATE).edit();
                         editor.putInt("db_version", Integer.parseInt(tokens[11]));
                         editor.apply();
                         return_status = "DATABASE UPDATED";
                         count = count + 1;
-                    }else{
+                       }
+                     */
+                    else{
                         return_status = "NO NEED TO UPDATE";
                     }
                     count = count + 1;
                 }
 
 
-                 */
+
                 drink.setNr_drink((long)1);
                 drink.setNazwa_drink(tokens[0]);
                 drink.setPhoto_drink(tokens[1]);
