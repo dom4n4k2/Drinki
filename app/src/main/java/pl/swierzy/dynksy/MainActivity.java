@@ -25,11 +25,17 @@ public class MainActivity extends AppCompatActivity {
 
         prefs = this.getPreferences(Context.MODE_PRIVATE);
         int database_version = getResources().getInteger(R.integer.database_version);
-        Log.d("wtf", "databaseversion: " + database_version);
+        Log.d("wtf", "databaseversion before: " + database_version);
         Context context = this;
         database_content content = new database_content();
         Pair<String, Integer> response_from_csv = content.drink_read_from_csv(context, database_version);
         Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
+        editor = this.prefs.edit();
+        editor.putInt(String.valueOf(getResources().getInteger(R.integer.database_version)),response_from_csv.second);
+        editor.apply();
+        Log.d("wtf", "databaseversion after " + response_from_csv.second);
+
+
 
     }
 
@@ -65,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
     Button update;
     Button clear;
     SharedPreferences prefs;
+    SharedPreferences.Editor editor;
 
 
 
