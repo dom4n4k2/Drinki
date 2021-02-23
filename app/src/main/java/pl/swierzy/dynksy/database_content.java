@@ -2,6 +2,7 @@ package pl.swierzy.dynksy;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
+import android.util.Pair;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +14,7 @@ import java.nio.charset.Charset;
 public class database_content extends drinks {
 
 
-    public String drink_read_from_csv(Context context, int database_version){
+    public static Pair<String, Integer> drink_read_from_csv(Context context, int database_version){
 
 
         Database_management data_b = new Database_management(context);
@@ -23,7 +24,7 @@ public class database_content extends drinks {
         String line = "";
         Integer count = 0;
         String return_status = null;
-        int return_database_version;
+        int return_database_version = 0;
 
         try {
 
@@ -76,7 +77,7 @@ public class database_content extends drinks {
         } catch (IOException e){
             Log.d("wtf","Error reading data file on line" + line, e);
         }
-        return return_status;
+        return new Pair<>(return_status, return_database_version);
     }
 
     }

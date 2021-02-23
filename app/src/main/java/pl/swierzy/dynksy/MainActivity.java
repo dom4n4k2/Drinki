@@ -26,13 +26,10 @@ public class MainActivity extends AppCompatActivity {
         prefs = this.getPreferences(Context.MODE_PRIVATE);
         int database_version = getResources().getInteger(R.integer.database_version);
         Log.d("wtf", "databaseversion: " + database_version);
-        String messange;
-        Integer new_database_version;
         Context context = this;
         database_content content = new database_content();
-       messange, new_database_version = content.drink_read_from_csv(context, database_version);
-
-        Toast.makeText(getApplicationContext(),messange, Toast.LENGTH_SHORT).show();
+        Pair<String, Integer> response_from_csv = content.drink_read_from_csv(context, database_version);
+        Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
 
     }
 
