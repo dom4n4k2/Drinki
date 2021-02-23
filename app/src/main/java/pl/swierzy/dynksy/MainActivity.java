@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -57,14 +60,22 @@ public class MainActivity extends AppCompatActivity {
     ImageButton cart;
     Button update;
     Button clear;
-    Integer database_version;
+    SharedPreferences prefs;
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        prefs = this.getPreferences(Context.MODE_PRIVATE);
+        int database_version = getResources().getInteger(R.integer.database_version);
+        Log.d("wtf", "databaseversion: " + database_version);
 
+
+        setContentView(R.layout.activity_main);
 
         drinks = (ImageButton)findViewById(R.id.drinks_button_main);
         shots = (ImageButton)findViewById(R.id.shots_button_main);

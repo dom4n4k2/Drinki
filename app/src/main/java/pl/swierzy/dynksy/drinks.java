@@ -26,7 +26,7 @@ public class drinks extends MainActivity {
     Button back;
 
     @SuppressLint("SetTextI18n")
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_layout);

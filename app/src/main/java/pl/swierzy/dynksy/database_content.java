@@ -1,5 +1,6 @@
 package pl.swierzy.dynksy;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.util.Log;
 
 import java.io.BufferedReader;
@@ -11,14 +12,15 @@ import java.nio.charset.Charset;
 
 public class database_content extends drinks {
 
+
     public String drink_read_from_csv(Context context){
+
+
         Database_management data_b = new Database_management(context);
         drink_add_class drink = new drink_add_class();
-
         InputStream is = context.getResources().openRawResource(R.raw.drinki);
         BufferedReader reader = new BufferedReader( new InputStreamReader(is, Charset.forName("UTF-8")));
         String line = "";
-
         Integer count = 0;
         String return_status = null;
 
@@ -31,16 +33,17 @@ public class database_content extends drinks {
 
 
 
-                if(count == 0 ) {
-                    Log.d("wtf", "1"+ String.valueOf(database_version));
-                    if(database_version == null){
-                        database_version = Integer.parseInt(tokens[11]);
-                        Log.d("wtf", "2"+ String.valueOf(database_version));
-                        return_status = "DATABASE WAS NULL";
+                /*if(count == 0 ) {
+                    if(db_version == 0){
+                        SharedPreferences.Editor editor = getSharedPreferences("SharedVariables", MODE_PRIVATE).edit();
+                        editor.putInt("db_version", Integer.parseInt(tokens[11]));
+                        editor.apply();
+                        return_status = "DATABASE WAS UPDATED FOR THE FIRST TIME";
                     }
-                    if(database_version != Integer.parseInt(tokens[11])) {
-                        Log.d("wtf", "mnozenie :" + Integer.parseInt(tokens[11]) * database_version);
-                        Log.d("wtf", "3"+ String.valueOf(database_version));
+                    if(db_version != Integer.parseInt(tokens[11])) {
+                        SharedPreferences.Editor editor = getSharedPreferences("SharedVariables", MODE_PRIVATE).edit();
+                        editor.putInt("db_version", Integer.parseInt(tokens[11]));
+                        editor.apply();
                         return_status = "DATABASE UPDATED";
                         count = count + 1;
                     }else{
@@ -50,6 +53,7 @@ public class database_content extends drinks {
                 }
 
 
+                 */
                 drink.setNr_drink((long)1);
                 drink.setNazwa_drink(tokens[0]);
                 drink.setPhoto_drink(tokens[1]);
