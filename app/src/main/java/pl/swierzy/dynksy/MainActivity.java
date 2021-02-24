@@ -25,26 +25,22 @@ public class MainActivity extends AppCompatActivity {
 
         prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
         int database_version = prefs.getInt("database_version",0);
-        Log.d("wtf", "databaseversion before: " + database_version);
         Context context = this;
         database_content content = new database_content();
         Pair<String, Integer> response_from_csv = content.drink_read_from_csv(context, database_version);
         Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
-
         editor = this.prefs.edit();
         editor.putInt("database_version", response_from_csv.second);
         editor.commit();
-        Log.d("wtf", "databaseversion after " + response_from_csv.second);
-        int database_version_2 = prefs.getInt("database_version",0);
-        Log.d("wtf", "databaseversion after 2: " + database_version_2);
-
-
 
     }
 
     public void main_clear_button_void(View V){
         Toast.makeText(getApplicationContext(),"CLEAR", Toast.LENGTH_SHORT).show();
-
+        prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
+        editor = this.prefs.edit();
+        editor.putInt("database_version", 0);
+        editor.commit();
         Database_management data_b = new Database_management(this);
         for(int i =0; i<= 1000;i++){
             data_b.delete_drink(i);
