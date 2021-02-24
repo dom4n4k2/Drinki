@@ -32,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
         editor = this.prefs.edit();
         editor.putInt(String.valueOf(getResources().getInteger(R.integer.database_version)),response_from_csv.second);
-        editor.apply();
+        editor.commit();
         Log.d("wtf", "databaseversion after " + response_from_csv.second);
+        int database_version_2 = getResources().getInteger(R.integer.database_version);
+        Log.d("wtf", "databaseversion after 2: " + database_version_2);
 
 
 
