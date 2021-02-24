@@ -23,18 +23,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void main_update_button_void(View V) {
 
-        prefs = this.getPreferences(Context.MODE_PRIVATE);
-        int database_version = getResources().getInteger(R.integer.database_version);
+        prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
+        int database_version = prefs.getInt("database_version",0);
         Log.d("wtf", "databaseversion before: " + database_version);
         Context context = this;
         database_content content = new database_content();
         Pair<String, Integer> response_from_csv = content.drink_read_from_csv(context, database_version);
         Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
+
         editor = this.prefs.edit();
-        editor.putInt(String.valueOf(getResources().getInteger(R.integer.database_version)),response_from_csv.second);
+        editor.putInt("database_version", response_from_csv.second);
         editor.commit();
         Log.d("wtf", "databaseversion after " + response_from_csv.second);
-        int database_version_2 = getResources().getInteger(R.integer.database_version);
+        int database_version_2 = prefs.getInt("database_version",0);
         Log.d("wtf", "databaseversion after 2: " + database_version_2);
 
 
