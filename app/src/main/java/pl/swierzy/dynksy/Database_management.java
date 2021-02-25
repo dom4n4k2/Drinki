@@ -18,6 +18,7 @@ public class Database_management extends SQLiteOpenHelper {
         db.execSQL(
                 "create table drinks("+
                 "nr_drink integer primary key,"+
+                "typ text,"+
                 "nazwa_drink text,"+
                 "photo_drink text,"+
                 "S1_drink text,"+
@@ -41,6 +42,7 @@ public class Database_management extends SQLiteOpenHelper {
     public  void add_drink(drink_add_class drinks_database){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues wartosci = new ContentValues();
+        wartosci.put("typ", drinks_database.getTyp());
         wartosci.put("nazwa_drink", drinks_database.getNazwa_drink());
         wartosci.put("photo_drink", drinks_database.getPhoto_drink());
         wartosci.put("S1_drink", drinks_database.getS1_drink());
@@ -66,6 +68,7 @@ public class Database_management extends SQLiteOpenHelper {
     public void update_drink(drink_add_class drinks_database){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues wartosci = new ContentValues();
+        wartosci.put("typ", drinks_database.getTyp());
         wartosci.put("nazwa_drink", drinks_database.getNazwa_drink());
         wartosci.put("photo_drink", drinks_database.getPhoto_drink());
         wartosci.put("S1_drink", drinks_database.getS1_drink());
@@ -83,23 +86,27 @@ public class Database_management extends SQLiteOpenHelper {
 
     public List<drink_add_class> read_drink() {
         List<drink_add_class> drinks_databaseList = new LinkedList<drink_add_class>();
-        String[] columns = {"nr_drink", "nazwa_drink", "photo_drink", "S1_drink", "S2_drink", "S3_drink", "S4_drink", "S5_drink", "S6_drink", "S7_drink", "S8_drink", "Instruction_drink"};
+        //String[] columns = {"nr_drink", "nazwa_drink", "photo_drink", "S1_drink", "S2_drink", "S3_drink", "S4_drink", "S5_drink", "S6_drink", "S7_drink", "S8_drink", "Instruction_drink"};
         SQLiteDatabase db = getReadableDatabase();
-        Cursor kursor = db.query("drinks", columns, "nazwa_drink =?", new String[]{"woda"}, null, null, null, null);
+        //Cursor kursor = db.query("drinks", columns, "nazwa_drink =?", new String[]{"woda"}, null, null, null, null);
+        //String sql = "select * from drinks where nazwa_drink ='woda' or nazwa_drink ='bimber'";
+        String sql = "select * from drinks";
+        Cursor kursor = db.rawQuery(sql, null);
         while (kursor.moveToNext()) {
             drink_add_class drinks_database = new drink_add_class();
             drinks_database.setNr_drink(kursor.getLong(0));
-            drinks_database.setNazwa_drink(kursor.getString(1));
-            drinks_database.setPhoto_drink(kursor.getString(2));
-            drinks_database.setS1_drink(kursor.getString(3));
-            drinks_database.setS2_drink(kursor.getString(4));
-            drinks_database.setS3_drink(kursor.getString(5));
-            drinks_database.setS4_drink(kursor.getString(6));
-            drinks_database.setS5_drink(kursor.getString(7));
-            drinks_database.setS6_drink(kursor.getString(8));
-            drinks_database.setS7_drink(kursor.getString(9));
-            drinks_database.setS8_drink(kursor.getString(10));
-            drinks_database.setInstruction_drink(kursor.getString(11));
+            drinks_database.setTyp(kursor.getString(1));
+            drinks_database.setNazwa_drink(kursor.getString(2));
+            drinks_database.setPhoto_drink(kursor.getString(3));
+            drinks_database.setS1_drink(kursor.getString(4));
+            drinks_database.setS2_drink(kursor.getString(5));
+            drinks_database.setS3_drink(kursor.getString(6));
+            drinks_database.setS4_drink(kursor.getString(7));
+            drinks_database.setS5_drink(kursor.getString(8));
+            drinks_database.setS6_drink(kursor.getString(9));
+            drinks_database.setS7_drink(kursor.getString(10));
+            drinks_database.setS8_drink(kursor.getString(11));
+            drinks_database.setInstruction_drink(kursor.getString(12));
             drinks_databaseList.add(drinks_database);
 
         }

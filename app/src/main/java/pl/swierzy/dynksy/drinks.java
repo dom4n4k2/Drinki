@@ -56,6 +56,7 @@ public class drinks extends MainActivity {
 */
         for(drink_add_class d:data_b.read_drink()){
             Log.d("wtf", d.getNr_drink() +
+                    "  " + d.getTyp()+
                     "  " + d.getNazwa_drink()+
                     "  " + d.getPhoto_drink()+
                     "  " +d.getS1_drink()+
