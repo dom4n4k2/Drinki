@@ -85,7 +85,7 @@ public class Database_management extends SQLiteOpenHelper {
         List<drink_add_class> drinks_databaseList = new LinkedList<drink_add_class>();
         String[] columns = {"nr_drink", "nazwa_drink", "photo_drink", "S1_drink", "S2_drink", "S3_drink", "S4_drink", "S5_drink", "S6_drink", "S7_drink", "S8_drink", "Instruction_drink"};
         SQLiteDatabase db = getReadableDatabase();
-        Cursor kursor = db.query("drinks", columns, null, null, null, null, null, null);
+        Cursor kursor = db.query("drinks", columns, "nazwa_drink =?", new String[]{"woda"}, null, null, null, null);
         while (kursor.moveToNext()) {
             drink_add_class drinks_database = new drink_add_class();
             drinks_database.setNr_drink(kursor.getLong(0));
