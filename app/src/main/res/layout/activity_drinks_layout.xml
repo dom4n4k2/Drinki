@@ -32,7 +32,7 @@
         android:textColor="@color/start_button_color_text"
         android:text="@string/drinks_button_1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="600dp"
         android:layout_below="@+id/textView"
         android:onClick="drinks_back_void"
  />
