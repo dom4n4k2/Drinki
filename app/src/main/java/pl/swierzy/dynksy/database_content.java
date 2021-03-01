@@ -30,7 +30,7 @@ public class database_content extends drinks {
             reader.readLine();
             while ((line = reader.readLine()) != null) {
                 //Log.d("wtf", "Line: " + line);
-                String[] tokens = line.split(";");
+                String[] tokens = line.split(",");
 
 
 

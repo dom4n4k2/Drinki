@@ -1,8 +1,6 @@
 package pl.swierzy.dynksy;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -23,11 +20,11 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
     private List<String> listTitulo;
-    private HashMap<String, Contacto> expandableListDetalles;
+    private HashMap<String, Drink_Get_Set> expandableListDetalles;
 
     public CustomExpandableListAdapter(Context context,
                                        List<String> listTitulo,
-                                       HashMap<String, Contacto> expandableListDetalles) {
+                                       HashMap<String, Drink_Get_Set> expandableListDetalles) {
         this.context = context;
         this.listTitulo = listTitulo;
         this.expandableListDetalles = expandableListDetalles;
@@ -37,7 +34,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public View getChildView(final int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
 
-        final Contacto contacto = (Contacto) getChild(groupPosition, childPosition);
+        final Drink_Get_Set contacto = (Drink_Get_Set) getChild(groupPosition, childPosition);
 
         if (convertView == null) {
 
@@ -50,49 +47,19 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
         CircleImageView circleImageView = convertView.findViewById(R.id.circleIMG);
 
-        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), contacto.getImg());
-        circleImageView.setImageBitmap(bitmap);
+
 
         LinearLayout layoutLlamar = convertView.findViewById(R.id.lLlamar);
-        LinearLayout layoutVideollamada = convertView.findViewById(R.id.lVideoLlamada);
-        LinearLayout layoutMensaje = convertView.findViewById(R.id.lMensaje);
-        LinearLayout layoutInfo = convertView.findViewById(R.id.lInfo);
+
 
         layoutLlamar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "Llamamos a: "
-                        + contacto.getNumero(), Toast.LENGTH_SHORT).show();
+                        + contacto.getNumer(), Toast.LENGTH_SHORT).show();
             }
         });
 
-        layoutMensaje.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Mensaje para: "
-                        + contacto.getCorreo(), Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        layoutVideollamada.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Videollamada a: "
-                        + contacto.getNumero(), Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        layoutInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                List<String> index = new ArrayList<>(expandableListDetalles.keySet());
-
-                Toast.makeText(v.getContext(), "Info de: "
-                        + index.get(groupPosition) + " Direccion: "
-                        + contacto.getDireccion(), Toast.LENGTH_SHORT).show();
-            }
-        });
 
 
         Animation animation = AnimationUtils.loadAnimation(context, android.R.anim.fade_in);
@@ -109,7 +76,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
 
         String nombre = (String) getGroup(groupPosition);
-        Contacto contacto = (Contacto) getChild(groupPosition,0);
+        Drink_Get_Set contacto = (Drink_Get_Set) getChild(groupPosition,0);
 
         if (convertView == null) {
 

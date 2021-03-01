@@ -1,7 +1,40 @@
-drink;nazwa drina;scieka zdjecia;skladnik 1;skladnik 2;skladnik 3 ;skladnik 4 ;skladnik 5;skladnik 6;skladnik 7;skladnik 8;instrukcje;
-drink;woda;sciezka woda;1;2;4;5;6;7;8;9;instruckja woda;5
-drink;whisky;sciezka whisky;9;10;11;12;13;14;15;16;instruckja whisky;
-drink;piwo;scizka piwo;9;10;11;12;13;14;15;16;instruckja piwo;
-shot;wino;sciezka wino;9;10;11;12;13;14;15;16;instruckja wino;
-shot;bimber;sciezka bimber;9;10;11;12;13;14;15;16;instruckja bimber;
-shot;woda;scieżka wóda gazowana;9;10;11;12;13;14;15;16;instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana;
+drink,nazwa drina,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
+drink,1,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,11
+drink,2,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,3,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,4,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,5,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,6,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink,7,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
+drink,8,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
+drink,9,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,10,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,11,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,12,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,13,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink,14,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
+drink,15,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
+drink,16,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,17,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,18,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,19,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,20,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink,21,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
+drink,22,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
+drink,23,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,24,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,25,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,26,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,27,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink,28,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,
+drink,29,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,30,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,31,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,32,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,33,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink,34,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,
+drink,35,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
+drink,36,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
+shot,37,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
+shot,38,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
+shot,39,scieżka wóda gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,

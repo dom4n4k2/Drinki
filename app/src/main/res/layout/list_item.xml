@@ -29,12 +29,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/ic_llamada" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,74 +38,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/lMensaje"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/ic_mensaje" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mensaje"
-                android:textColor="@color/txt_color" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lVideoLlamada"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/ic_videollamada" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Video"
-                android:textColor="@color/txt_color" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lInfo"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/ic_info" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Info"
-                android:textColor="@color/txt_color" />
-
-
-        </LinearLayout>
 
     </LinearLayout>
 
