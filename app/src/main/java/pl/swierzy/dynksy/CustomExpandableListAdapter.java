@@ -121,10 +121,10 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         }
 
         TextView txtNombre = convertView.findViewById(R.id.txtGroupNombre);
-        TextView txtNumero = convertView.findViewById(R.id.txtGroupNumero);
+
 
         txtNombre.setText(nombre);
-        txtNumero.setText(contacto.getNumero());
+
 
         return convertView;
     }

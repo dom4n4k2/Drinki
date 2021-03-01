@@ -14,7 +14,6 @@ public class drink_add_class{
     private String S5_drink;
 
 
-
     private String S6_drink;
     private String S7_drink;
     private String S8_drink;

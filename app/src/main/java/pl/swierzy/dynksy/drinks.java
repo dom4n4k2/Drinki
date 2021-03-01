@@ -117,36 +117,7 @@ public class drinks extends MainActivity {
                 "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
         listaC.put("Raquel", new Contacto("333-333-333",
                 "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
-        listaC.put("Juan 2", new Contacto("444-444-444",
-                "juan@correo.com", "Calle 1, 11 - 4D", R.drawable.img_11));
-        listaC.put("Sara 2", new Contacto("555-555-555",
-                "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
-        listaC.put("Raquel 2", new Contacto("666-666-666",
-                "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
-        listaC.put("Juan 3", new Contacto("777-777-777",
-                "juan@correo.com", "Calle 1, 11 - 4D", R.drawable.img_11));
-        listaC.put("Sara 3", new Contacto("888-888-888",
-                "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
-        listaC.put("Raquel 3", new Contacto("999-999-999",
-                "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
-        listaC.put("Juan5", new Contacto("111-111-111",
-                "juan@correo.com", "Calle 1, 11 - 4D", R.drawable.img_11));
-        listaC.put("Sara5", new Contacto("222-222-222",
-                "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
-        listaC.put("Raquel5", new Contacto("333-333-333",
-                "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
-        listaC.put("Juan 5", new Contacto("444-444-444",
-                "juan@correo.com", "Calle 1, 11 - 4D", R.drawable.img_11));
-        listaC.put("Sara 5", new Contacto("555-555-555",
-                "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
-        listaC.put("Raquel 5", new Contacto("666-666-666",
-                "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
-        listaC.put("Juan 5", new Contacto("777-777-777",
-                "juan@correo.com", "Calle 1, 11 - 4D", R.drawable.img_11));
-        listaC.put("Sara 5", new Contacto("888-888-888",
-                "sara@correo.com", "Calle 2, 1 - 1A", R.drawable.img_22));
-        listaC.put("Raquel 5", new Contacto("999-999-999",
-                "raquel@correo.com", "Calle 3, 3 - 6B", R.drawable.img_33));
+
 
         return listaC;
     }
