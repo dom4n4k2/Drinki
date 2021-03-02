@@ -20,11 +20,11 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
     private List<String> listTitulo;
-    private HashMap<String, Drink_Get_Set> expandableListDetalles;
+    private HashMap<String, drink_add_class> expandableListDetalles;
 
     public CustomExpandableListAdapter(Context context,
                                        List<String> listTitulo,
-                                       HashMap<String, Drink_Get_Set> expandableListDetalles) {
+                                       HashMap<String, drink_add_class> expandableListDetalles) {
         this.context = context;
         this.listTitulo = listTitulo;
         this.expandableListDetalles = expandableListDetalles;
@@ -34,7 +34,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public View getChildView(final int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
 
-        final Drink_Get_Set contacto = (Drink_Get_Set) getChild(groupPosition, childPosition);
+        final drink_add_class contacto = (drink_add_class) getChild(groupPosition, childPosition);
 
         if (convertView == null) {
 
@@ -76,7 +76,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
 
         String nombre = (String) getGroup(groupPosition);
-        Drink_Get_Set contacto = (Drink_Get_Set) getChild(groupPosition,0);
+        drink_add_class contacto = (drink_add_class) getChild(groupPosition,0);
 
         if (convertView == null) {
 

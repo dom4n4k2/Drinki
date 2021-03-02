@@ -17,6 +17,29 @@ public class drink_add_class{
     private String S8_drink;
     private String Instruction_drink;
 
+    public drink_add_class(Long nr_drink, String typ, String nazwa_drink, String photo_drink, String S1_drink, String S2_drink, String S3_drink, String S4_drink, String S5_drink, String S6_drink, String S7_drink, String S8_drink, String Instruction_drink) {
+        this.nr_drink = nr_drink;
+        this.typ =  typ;
+        this.nazwa_drink =  nazwa_drink;
+        this.photo_drink =  photo_drink;
+        this.S1_drink =  S1_drink;
+        this.S2_drink =  S2_drink;
+        this.S3_drink =  S3_drink;
+        this.S4_drink =  S4_drink;
+        this.S5_drink =  S5_drink;
+        this.S6_drink =  S6_drink;
+        this.S7_drink = S7_drink;
+        this.S8_drink =  S8_drink;
+        this.Instruction_drink = Instruction_drink;
+
+
+    }
+
+    public drink_add_class() {
+
+
+    }
+
     public Long getNr_drink() {
         return nr_drink;
     }
