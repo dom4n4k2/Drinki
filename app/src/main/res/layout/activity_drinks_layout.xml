@@ -24,6 +24,15 @@
 
         />
 
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:groupIndicator="@null" />
+
+
     <Button
         android:id="@+id/drinks_button_back"
         android:layout_width="250dp"
