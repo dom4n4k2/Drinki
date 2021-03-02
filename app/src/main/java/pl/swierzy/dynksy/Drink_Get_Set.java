@@ -2,7 +2,7 @@ package pl.swierzy.dynksy;
 
 public class Drink_Get_Set  {
 
-    private Long numer;
+    private Long nr_drink;
     private String typ;
     private String nazwa_drink;
     private String photo_drink;
@@ -19,8 +19,8 @@ public class Drink_Get_Set  {
 
 
 
-    public Drink_Get_Set(Long numer, String typ, String nazwa_drink, String photo_drink, String S1_drink, String S2_drink, String S3_drink, String S4_drink, String S5_drink, String S6_drink, String S7_drink, String S8_drink, String Instruction_drink) {
-        this.numer = numer;
+    public Drink_Get_Set(Long nr_drink, String typ, String nazwa_drink, String photo_drink, String S1_drink, String S2_drink, String S3_drink, String S4_drink, String S5_drink, String S6_drink, String S7_drink, String S8_drink, String Instruction_drink) {
+        this.nr_drink = nr_drink;
         this.typ =  typ;
         this.nazwa_drink =  nazwa_drink;
         this.photo_drink =  photo_drink;
@@ -38,8 +38,8 @@ public class Drink_Get_Set  {
     }
 
 
-    public Long getNumer() {
-        return numer;
+    public Long getNr_drink() {
+        return nr_drink;
     }
     public String getTyp() {
         return typ;

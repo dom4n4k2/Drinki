@@ -56,7 +56,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "Llamamos a: "
-                        + contacto.getNumer(), Toast.LENGTH_SHORT).show();
+                        + contacto.getNr_drink(), Toast.LENGTH_SHORT).show();
             }
         });
 
