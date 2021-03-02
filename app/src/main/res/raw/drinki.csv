@@ -1,40 +1,7 @@
-drink,nazwa drina,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
-drink,1,sciezka woda,1,2,4,5,,7,8,9,instruckja woda,11
-drink,2,sciezka whisky,1,10,11,,13,14,15,16,instruckja whisky,
-drink,3,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,4,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,5,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,6,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
-drink,7,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
-drink,8,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
-drink,9,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
-drink,10,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,11,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,12,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,13,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
-drink,14,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
-drink,15,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
-drink,16,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
-drink,17,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,18,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,19,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,20,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
-drink,21,scieka zdjecia,skladnik 1,skladnik 2,skladnik 3 ,skladnik 4 ,skladnik 5,skladnik 6,skladnik 7,skladnik 8,instrukcje,
-drink,22,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,6
-drink,23,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
-drink,24,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,25,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,26,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,27,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
-drink,28,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,
-drink,29,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
-drink,30,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,31,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,32,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,33,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
-drink,34,sciezka woda,1,2,4,5,6,7,8,9,instruckja woda,
-drink,35,sciezka whisky,9,10,11,12,13,14,15,16,instruckja whisky,
-drink,36,scizka piwo,9,10,11,12,13,14,15,16,instruckja piwo,
-shot,37,sciezka wino,9,10,11,12,13,14,15,16,instruckja wino,
-shot,38,sciezka bimber,9,10,11,12,13,14,15,16,instruckja bimber,
-shot,39,scieÅ¼ka wÃ³da gazowana,9,10,11,12,13,14,15,16,instruckja woda gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsadasdasdasdaaaaaaaaaaaaaaaaaaaaaazowana,
+drink;nazwa drina;scieka zdjecia;skladnik 1;skladnik 2;skladnik 3 ;skladnik 4 ;skladnik 5;skladnik 6;skladnik 7;skladnik 8;instrukcje;
+drink;Woda;a1;IŒÆ NA HERENDÊ;adas;dsa;pies;gwadaxzvzxv;f;gf;w;Œwie¿e dro¿d¿e ociepliæ w temperaturze pokojowej. Przygotowaæ rozczyn: dro¿d¿e rozpuœciæ w ciep³ej wodzie, dodaæ 2 ³y¿ki m¹ki oraz cukier, dok³adnie wymieszaæ i odstawiæ na ok. 10 minut do wyroœniêcia (rozczyn ze œwie¿ych dro¿d¿y zwiêksza objêtoœæ o ok. 3 razy - jeœli tak siê nie stanie proces przygotowania rozczynu trzeba powtórzyæ od nowa, natomiast rozczyn z dro¿d¿y instant mo¿e siê tylko trochê spieniæ).;3
+drink;Wóda;a2;1;10;11;12;KUPOWAÆ KOTA W WORKU;fg;gf;d;M¹kê przesiaæ do miski, wymieszaæ z sol¹, zrobiæ wg³êbienie w œrodku i wlaæ w nie rozczyn. Sukcesywnie zagarniaæ ³y¿k¹ m¹kê do œrodka i przez 2 - 3 minuty mieszaæ sk³adniki, pod koniec dodaj¹c jeszcze oliwê.;
+drink;whiskey;a3;9;vbvcbw;dsawdada;sgetet;svcbcvb;gasdasda;ssawdwadadwaa;w;Po³¹czone sk³adniki wy³o¿yæ na stolnicê oprószon¹ m¹k¹. Wyrabiaæ przez ok. 15 minut a¿ ciasto bêdzie elastyczne i g³adkie (ciasto mo¿na te¿ zagnieœæ mikserem planetarnym).;
+shot;piwo;a4;9;sada;dsa;d;£OWIÆ RYBY W MÊTNEJ WODZIE;d;f;w;Wyrobione ciasto w³o¿yæ do du¿ej miski, przykryæ œciereczk¹ i odstawiæ na ok. 1 godzinê do wyroœniêcia.;
+shot;wino;a5;9;adas;sasd;asdwad;f;asfa;sfa;w;Wyroœniête ciasto wyj¹æ na stolnicê i chwilê pozagniataæ. Podzieliæ na 2 czêœci, uformowaæ z nich kulki i od³o¿yæ na ok. 7 minut pod œciereczk¹.;
+shot;szampan;a6;BUJAÆ W OB£OKACH;bbbvcb;asdasdan;nsgsdgs;bwewae;asddsasdaf;15;s;Blaszki (tortownice) posmarowaæ oliw¹. W³o¿yæ na œrodek kulkê ciasta, delikatnie sp³aszczyæ i rozci¹gaæ, rozprowadzaj¹c palcami po ca³ej powierzchni dna, zaczynaj¹c od œrodka i zostawiaj¹c niewielki "wa³eczek" na brzegu (zob. zdjêcia poni¿ej). UWAGA: najlepiej robiæ to kilkoma etapami, ciasto na pocz¹tku sprê¿ynuje i "cofa siê" ale jeœli odczekamy chwilê bêdziemy mogli je dalej rozci¹gaæ.;
