@@ -11,8 +11,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.TreeMap;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -20,11 +20,11 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
     private List<String> listTitulo;
-    private TreeMap<String, drink_add_class> expandableListDetalles;
+    private LinkedHashMap<String, drink_add_class> expandableListDetalles;
 
     public CustomExpandableListAdapter(Context context,
                                        List<String> listTitulo,
-                                       TreeMap<String, drink_add_class> expandableListDetalles) {
+                                       LinkedHashMap<String, drink_add_class> expandableListDetalles) {
         this.context = context;
         this.listTitulo = listTitulo;
         this.expandableListDetalles = expandableListDetalles;
