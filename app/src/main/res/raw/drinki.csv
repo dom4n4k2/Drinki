@@ -1,7 +1,7 @@
-drink;nazwa drina;scieka zdjecia;skladnik 1;skladnik 2;skladnik 3 ;skladnik 4 ;skladnik 5;skladnik 6;skladnik 7;skladnik 8;instrukcje;
-drink;Woda;a1;IŒÆ NA HERENDÊ;adas;dsa;pies;gwadaxzvzxv;f;gf;w;Œwie¿e dro¿d¿e ociepliæ w temperaturze pokojowej. Przygotowaæ rozczyn: dro¿d¿e rozpuœciæ w ciep³ej wodzie, dodaæ 2 ³y¿ki m¹ki oraz cukier, dok³adnie wymieszaæ i odstawiæ na ok. 10 minut do wyroœniêcia (rozczyn ze œwie¿ych dro¿d¿y zwiêksza objêtoœæ o ok. 3 razy - jeœli tak siê nie stanie proces przygotowania rozczynu trzeba powtórzyæ od nowa, natomiast rozczyn z dro¿d¿y instant mo¿e siê tylko trochê spieniæ).;3
-drink;Wóda;a2;1;10;11;12;KUPOWAÆ KOTA W WORKU;fg;gf;d;M¹kê przesiaæ do miski, wymieszaæ z sol¹, zrobiæ wg³êbienie w œrodku i wlaæ w nie rozczyn. Sukcesywnie zagarniaæ ³y¿k¹ m¹kê do œrodka i przez 2 - 3 minuty mieszaæ sk³adniki, pod koniec dodaj¹c jeszcze oliwê.;
-drink;whiskey;a3;9;vbvcbw;dsawdada;sgetet;svcbcvb;gasdasda;ssawdwadadwaa;w;Po³¹czone sk³adniki wy³o¿yæ na stolnicê oprószon¹ m¹k¹. Wyrabiaæ przez ok. 15 minut a¿ ciasto bêdzie elastyczne i g³adkie (ciasto mo¿na te¿ zagnieœæ mikserem planetarnym).;
-shot;piwo;a4;9;sada;dsa;d;£OWIÆ RYBY W MÊTNEJ WODZIE;d;f;w;Wyrobione ciasto w³o¿yæ do du¿ej miski, przykryæ œciereczk¹ i odstawiæ na ok. 1 godzinê do wyroœniêcia.;
-shot;wino;a5;9;adas;sasd;asdwad;f;asfa;sfa;w;Wyroœniête ciasto wyj¹æ na stolnicê i chwilê pozagniataæ. Podzieliæ na 2 czêœci, uformowaæ z nich kulki i od³o¿yæ na ok. 7 minut pod œciereczk¹.;
-shot;szampan;a6;BUJAÆ W OB£OKACH;bbbvcb;asdasdan;nsgsdgs;bwewae;asddsasdaf;15;s;Blaszki (tortownice) posmarowaæ oliw¹. W³o¿yæ na œrodek kulkê ciasta, delikatnie sp³aszczyæ i rozci¹gaæ, rozprowadzaj¹c palcami po ca³ej powierzchni dna, zaczynaj¹c od œrodka i zostawiaj¹c niewielki "wa³eczek" na brzegu (zob. zdjêcia poni¿ej). UWAGA: najlepiej robiæ to kilkoma etapami, ciasto na pocz¹tku sprê¿ynuje i "cofa siê" ale jeœli odczekamy chwilê bêdziemy mogli je dalej rozci¹gaæ.;
+drink,nazwa drina,scieka zdjecia,skladnik 1,ilosc s1,skladnik 2,ilosc s2,skladnik 3 ,ilosc s3,skladnik 4 ,ilosc s4,skladnik 5,ilosc s5,skladnik 6,ilosc s6,skladnik 7,ilosc s7,skladnik 8,ilosc s8,instrukcje,
+drink,Woda,a1,IŒÆ NA HERENDÊ,50  ml,adas,50  ml,dsa,50  ml,pies,50  ml,gwadaxzvzxv,50  ml,f,50  ml,gf,50  ml,w,50  ml,asdsa,3
+drink,Wóda,a2,1,50  ml,10,50  ml,11,50  ml,12,50  ml,KUPOWAÆ KOTA W WORKU,50  ml,fg,50  ml,gf,50  ml,d,50  ml,sadas,
+drink,whiskey,a3,9,50  ml,vbvcbw,50  ml,dsawdada,50  ml,sgetet,50  ml,svcbcvb,50  ml,gasdasda,50  ml,ssawdwadadwaa,50  ml,w,50  ml,asdsa,
+shot,piwo,a4,9,50  ml,sada,50  ml,dsa,50  ml,d,50  ml,£OWIÆ RYBY W MÊTNEJ WODZIE,50  ml,d,50  ml,f,50  ml,w,50  ml,asdsa,
+shot,wino,a5,9,50  ml,adas,50  ml,sasd,50  ml,asdwad,50  ml,f,50  ml,asfa,50  ml,sfa,50  ml,w,50  ml,asdsa,
+shot,szampan,a6,BUJAÆ W OB£OKACH,50  ml,bbbvcb,50  ml,asdasdan,50  ml,nsgsdgs,50  ml,bwewae,50  ml,asddsasdaf,50  ml,15,50  ml,s,50  ml,asdas,

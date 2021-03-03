@@ -30,13 +30,13 @@ public class database_content extends drinks {
             reader.readLine();
             while ((line = reader.readLine()) != null) {
                 //Log.d("wtf", "Line: " + line);
-                String[] tokens = line.split(";");
+                String[] tokens = line.split(",");
 
 
 
                 if(count == 0 ) {
-                    if(database_version != Integer.parseInt(tokens[12])){
-                        return_database_version = Integer.parseInt(tokens[12]);
+                    if(database_version != Integer.parseInt(tokens[20])){
+                        return_database_version = Integer.parseInt(tokens[20]);
                         return_status = "DATABASE WAS UPDATED FOR THE FIRST TIME";
                         for(int i =0; i<= 1000;i++) {
                             data_b.delete_drink(i);
@@ -59,14 +59,22 @@ public class database_content extends drinks {
                     drink.setNazwa_drink(tokens[1]);
                     drink.setPhoto_drink(tokens[2]);
                     drink.setS1_drink(tokens[3]);
-                    drink.setS2_drink(tokens[4]);
-                    drink.setS3_drink(tokens[5]);
-                    drink.setS4_drink(tokens[6]);
-                    drink.setS5_drink(tokens[7]);
-                    drink.setS6_drink(tokens[8]);
-                    drink.setS7_drink(tokens[9]);
-                    drink.setS8_drink(tokens[10]);
-                    drink.setInstruction_drink(tokens[11]);
+                    drink.setS1_q(tokens[4]);
+                    drink.setS2_drink(tokens[5]);
+                    drink.setS2_q(tokens[6]);
+                    drink.setS3_drink(tokens[7]);
+                    drink.setS3_q(tokens[8]);
+                    drink.setS4_drink(tokens[9]);
+                    drink.setS4_q(tokens[10]);
+                    drink.setS5_drink(tokens[11]);
+                    drink.setS5_q(tokens[12]);
+                    drink.setS6_drink(tokens[13]);
+                    drink.setS6_q(tokens[14]);
+                    drink.setS7_drink(tokens[15]);
+                    drink.setS7_q(tokens[16]);
+                    drink.setS8_drink(tokens[17]);
+                    drink.setS8_q(tokens[18]);
+                    drink.setInstruction_drink(tokens[19]);
                     data_b.add_drink(drink);
                 }
 

@@ -44,51 +44,51 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         }
 
         TextView S1 = convertView.findViewById(R.id.S1);
-        S1.setText(drink.getS1_drink());
+        S1.setText(drink.getS1_drink() + " " + drink.getS1_q());
         if(drink.getS1_drink().isEmpty()) {
             S1.getLayoutParams().height = 0;
         }
         
         TextView S2 = convertView.findViewById(R.id.S2);
-        S2.setText(drink.getS2_drink());
+        S2.setText(drink.getS2_drink() + " " + drink.getS2_q());
         if(drink.getS2_drink().isEmpty()) {
             S2.getLayoutParams().height = 0;
         }
         
         TextView S3 = convertView.findViewById(R.id.S3);
-        S3.setText(drink.getS3_drink());
+        S3.setText(drink.getS3_drink() + " " + drink.getS3_q());
         if(drink.getS3_drink().isEmpty()) {
             S3.getLayoutParams().height = 0;
         }
 
         
         TextView S4 = convertView.findViewById(R.id.S4);
-        S4.setText(drink.getS4_drink());
+        S4.setText(drink.getS4_drink() + " " + drink.getS4_q());
         if(drink.getS4_drink().isEmpty()) {
             S4.getLayoutParams().height = 0;
         }
 
         TextView S5 = convertView.findViewById(R.id.S5);
-        S5.setText(drink.getS5_drink());        
+        S5.setText(drink.getS5_drink() + " " + drink.getS5_q());
         if(drink.getS5_drink().isEmpty()) {
             S5.getLayoutParams().height = 0;
         }
 
         TextView S6 = convertView.findViewById(R.id.S6);
-        S6.setText(drink.getS6_drink());
+        S6.setText(drink.getS6_drink() + " " + drink.getS6_q());
         if(drink.getS6_drink().isEmpty()) {
             S6.getLayoutParams().height = 0;
         }
 
         
         TextView S7 = convertView.findViewById(R.id.S7);
-        S7.setText(drink.getS7_drink());
+        S7.setText(drink.getS7_drink() + " " + drink.getS7_q());
         if(drink.getS7_drink().isEmpty()) {
             S7.getLayoutParams().height = 0;
         }
         
         TextView S8 = convertView.findViewById(R.id.S8);
-        S8.setText(drink.getS8_drink());
+        S8.setText(drink.getS8_drink() + " " + drink.getS8_q());
         if(drink.getS8_drink().isEmpty()) {
             S8.getLayoutParams().height = 0;
         }
