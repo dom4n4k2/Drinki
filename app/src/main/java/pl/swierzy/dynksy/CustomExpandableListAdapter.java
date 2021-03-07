@@ -1,7 +1,6 @@
 package pl.swierzy.dynksy;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,13 +42,8 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             convertView = layoutInflater.inflate(R.layout.list_item, null);
 
         }
-
         TextView S1 = convertView.findViewById(R.id.S1);
-        String a1 = drink.getS1_drink() + " " + drink.getS1_q();
-        Log.d("wtf", a1);
-        String a2= replace(a1);
-        Log.d("wtf", a2);
-        S1.setText(a2);
+        S1.setText(drink.getS1_drink() + " " + drink.getS1_q());
         if(drink.getS1_drink().isEmpty()) {
             S1.getLayoutParams().height = 0;
         }
@@ -195,12 +189,5 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         return true;
-    }
-
-    public String replace(String aa){
-        aa.replace("ó","o");
-        aa.replace("ś","s");
-        aa.replace("ć","c");
-        return aa;
     }
 }

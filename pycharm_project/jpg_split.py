@@ -6,8 +6,10 @@ from PIL import Image
 start_file_name ="Scan_20210305 ("
 start_file_read_count = 1
 stop_file_read_count = 26
+input_folder_name = "shoty"
+output_folder_name = "shoty_output"
 while start_file_read_count <= stop_file_read_count:
-    img_name = "drinki\\"+ start_file_name + str(start_file_read_count) + ").jpg"
+    img_name = input_folder_name +"\\"+ start_file_name + str(start_file_read_count) + ").jpg"
     print(img_name)
     im = Image.open(img_name)
     width, height = im.size
@@ -15,7 +17,7 @@ while start_file_read_count <= stop_file_read_count:
     left_a1=0
     top_a1=0
     right_a1=0.2455*width
-    bottom_a1 = 0.536*height
+    bottom_a1 = 0.577*height
 
     left_a2=0
     top_a2=0.475*height
@@ -25,7 +27,7 @@ while start_file_read_count <= stop_file_read_count:
     left_b1=0.2455*width
     top_b1=0
     right_b1=0.5*width
-    bottom_b1 = 0.536*height
+    bottom_b1 = 0.577*height
 
     left_b2=0.2455*width
     top_b2=0.475*height
@@ -36,7 +38,7 @@ while start_file_read_count <= stop_file_read_count:
     left_c1=0.5*width
     top_c1=0
     right_c1=0.7572*width
-    bottom_c1 = 0.536*height
+    bottom_c1 = 0.577*height
 
     left_c2=0.5*width
     top_c2=0.475*height
@@ -46,7 +48,7 @@ while start_file_read_count <= stop_file_read_count:
     left_d1=0.7572*width
     top_d1=0
     right_d1=width
-    bottom_d1 = 0.536*height
+    bottom_d1 = 0.577*height
 
     left_d2=0.7572*width
     top_d2=0.475*height
@@ -70,12 +72,12 @@ while start_file_read_count <= stop_file_read_count:
     im8 = im.crop((left_d2, top_d2, right_d2, bottom_d2))
 
     # Shows the image in image viewer
-    im1.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")a1.jpg" )
-    im2.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")a2.jpg" )
-    im3.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")b1.jpg" )
-    im4.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")b2.jpg" )
-    im5.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")c1.jpg" )
-    im6.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")c2.jpg" )
-    im7.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")d1.jpg" )
-    im8.save("drinki_output\\" + start_file_name + str(start_file_read_count) +")d2.jpg" )
+    im1.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")a1.jpg" )
+    im2.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")a2.jpg" )
+    im3.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")b1.jpg" )
+    im4.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")b2.jpg" )
+    im5.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")c1.jpg" )
+    im6.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")c2.jpg" )
+    im7.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")d1.jpg" )
+    im8.save(output_folder_name +"\\" + start_file_name + str(start_file_read_count) +")d2.jpg" )
     start_file_read_count =start_file_read_count + 1

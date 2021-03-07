@@ -36,7 +36,7 @@ public class drinks extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_layout);
-        back = (Button) findViewById(R.id.drinks_button_back);
+        //back = (Button) findViewById(R.id.drinks_button_back);
 
 
         init();
