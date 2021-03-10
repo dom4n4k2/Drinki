@@ -14,7 +14,7 @@
       <file leaf-file-name="jpg_to_txt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jpg_to_txt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jpg_split.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jpg_split.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jpg_split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="340">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jpg_crop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpg_crop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -46,6 +55,7 @@
       <find>a1</find>
       <find>b</find>
       <find>_b</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>a2</replace>
@@ -59,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/jpg_to_txt.py" />
         <option value="$PROJECT_DIR$/jpg_split.py" />
+        <option value="$PROJECT_DIR$/jpg_crop.py" />
       </list>
     </option>
   </component>
@@ -90,6 +101,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projekty\Dynksy\pycharm_project" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -102,7 +118,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jpg_split">
+  <component name="RunManager" selected="Python.jpg_crop">
+    <configuration name="jpg_crop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jpg_crop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="jpg_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,9 +176,11 @@
     <list>
       <item itemvalue="Python.jpg_to_txt" />
       <item itemvalue="Python.jpg_split" />
+      <item itemvalue="Python.jpg_crop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jpg_crop" />
         <item itemvalue="Python.jpg_split" />
         <item itemvalue="Python.jpg_to_txt" />
       </list>
@@ -188,7 +224,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jpg_to_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpg_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jpg_to_txt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -218,7 +276,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpg_to_txt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -228,8 +286,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jpg_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="340">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpg_crop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
