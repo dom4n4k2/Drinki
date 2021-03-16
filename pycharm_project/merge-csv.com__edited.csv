@@ -1,0 +1,206 @@
+typ,nazwa drina,scieka zdjecia,skladnik 1,ilosc s1,skladnik 2,ilosc s2,skladnik 3 ,ilosc s3,skladnik 4 ,ilosc s4,skladnik 5,ilosc s5,skladnik 6,ilosc s6,skladnik 7,ilosc s7,skladnik 8,ilosc s8,instrukcje
+drink,Capitan Jack,capitan_jack,Malibu,50 ml,Zaparzona kawa,50 ml ,Mleczko skondensowane nieslodzone,100 ml,Lod,,,,,,,,,,aaa
+drink,Czas Apokalipsy,czas_apokalipsy,Malibu,100 ml,Mleczko skondensowane nieslodzone,50 ml ,Syrop malinowy,20 ml,Lod,,,,,,,,,,aaa
+drink,Tears In Heaven,tears_in_heaven,Blue curacao,80 ml,Limonka,polowa,Bazylia,5 listkow,Tonik,do dopelnienia,Lod,,,,,,,,aaa
+drink,Heartbreaker,heartbreaker,Srebna tequila,70 ml,Sok pomaranczowy,150 ml,Sok z czarnej porzeczki,100 ml ,Lod,,,,,,,,,,aaa
+drink,Summer Jam,summer_jam,Malibu,70 ml,Truskawki,2 sztuki,Sok z cytryny,15 ml,Sok pomaraczowy,do dopelnienia,Lod,,,,,,,,aaa
+drink,Sin City,sin_city,Malibu,50 ml,Blue Curacao,50 ml ,Mleczko skondensowane nieslodzone,50 ml,Lod,,,,,,,,,,aaa
+drink,Runaway Train,runaway_train,Wermut Classic,70 ml,Sok pomaranczowy,70 ml,Syrop cukrowy,20 ml,Sok z cytryny,20 ml,Blue Curacao,50 ml ,Lod,,,,,,aaa
+drink,Eternal Flame,eternal_flame,Srebna tequila,50 ml,Sok pomaranczowy,100 ml,Sok z mango,50 ml,Syrop malinowy,15 ml,Sok z cytryny,15 ml ,Lod,,,,,,aaa
+drink,La Isla Bonita,la_isla_bonita,Gin,100 ml,Sok z czarnej porzeczki,50 ml ,Sok z cytryny,20 ml ,Woda gazowana,do dopelnienia,Plasterki cytryny,do dekoracji,Lod,,,,,,aaa
+drink,Be My Lover,be_my_lover,Gin,50 ml,Kiwi,1 sztuka,Imbir,kawalek,Sok z cytryny,10 ml,Sprite,do dopelnienia,Lod,,,,,,aaa
+drink,Margarita Truskawkowa,margarita_truskawkowa,Srebna tequila,80 ml,Likier triple sec,40 ml ,Sok z cytryny,30 ml,Truskawki,2 sztuki,Lod,,,,,,,,aaa
+drink,Wakabayashi,wakabayashi,Srebna tequila,50 ml,Mleczko skondensowane nieslodzone,100 ml,Kakao,2 lyzeczki rozpuszczone,Czekolada,zmielona do dekoracji,Lod,,,,,,,,aaa
+drink,Streets Of Philadelpia,streets_of_philadelphia,Srebna tequila,50 ml,Blue Curacao,20 ml,Sok grejfrutowy,100 ml,Tonik, do dopelnienia,Lod,,,,,,,,aaa
+drink,Oceanside,oceanside,Srebna tequila,50 ml,Sok z granatu,100 ml,Sok zurawinowy,70 ml,Sok pomaranczowy,70 ml,Syrop malinowy,20 ml,Lod,,,,,,aaa
+drink,Cool Night,cool_night,Gin,100 ml,Grenadyna,10 ml,Sok z cytryny,40 ml,Lod,,,,,,,,,,aaa
+drink,Zabojczy Numer,zabojczy_numer,Gin,70 ml,Sok pomaranczowy,100 ml,Blue Curacao,kilka kropli ,Lod,,,,,,,,,,aaa
+drink, Grom W Raju, grom_w_raju, Bialy rum, 50 ml, Blue Curacao, 20 ml, Sok pomaranczowy, 50 ml, Sok kaktusowy, 150 ml , Lod,,,,,,,,aaa
+drink, Eye Of The Tiger, eye_of_the_tiger, Sok pomaranczowy, 100 ml, Grenadyna, 40 ml, Gin, 50 ml, Sok z cytryny, 40 ml, Sok grejfrutowy, 150 ml, Plasterek grejpfruta, do dekoracji, Lod,,,,aaa
+drink, Joyride, joyride, Gin, 50 ml, Sok zurawinowy, 50 ml , Sok pomaranczowy, 100 ml, Grenadyna, 10 ml, pomarancza, do dekoracji, karambola, do dekorajci, Lod,,,,aaa
+drink, Twin Peaks, twin_peaks, Gin, 50 ml, Sok grejfrutowy, 50 ml, Blue curacao, 15 ml , Lod,,,,,,,,,,aaa
+drink, Wind Of Change, wind_of_change,Gin, 50 ml, Grenadyna, 20 ml, Sok pomaranczowy, 150ml, Sok z cytryny, 20 ml , Pomarancza i miechunka, do dekoracji,Lod,,,,,,aaa
+drink, Touch Me, touch_me, gin, 50 ml, Blue curacao, 40 ml, Sok z cytryny, 40 ml, Sprite, do dopelnienia, plasterek pomaranczy, do dekoracji, lod,,,,,,aaa
+drink, Nosferatu, nosferatu,Sok grejfrutowy, 100 ml, Syrop cukrowy, 30 ml , Gin, 50 ml, Sok z cytryny, 30 ml, Sok z czarnej porzeczki, 50 ml, Lod,,,,,,aaa
+drink, Oldfield, oldfield, Gin, 50 ml, Blue curacao, 20 ml, Sok pomaranczowy, 150 ml , Sok z cytryny, cwiartka, czastka cytryny, do dekoracji, Lod,,,,,,aaa
+drink, Blue Pina Colada, blue_pina_colada, Bialy rum, 100 ml, Blue curacao, 20 ml, Mleczko skondensowane, 70 ml, Sok ananasowy, 200 ml, Syrop kokosowy, 20 ml , Lod,,,,,,aaa
+drink, Easy Lover, easy_lover, Bialy rum, 100 ml, Sok pomaranczowy, 50 ml, Syrop malinowy, kilka kropli, Lod,,,,,,,,,,aaa
+drink, One Of Us, one_on_us, Bialy rum, 50 ml, Syrop malinowy, 10 ml, Plasterki pomaranczy, dwie sztuki, Sprite, Lod,,,,,,,,,aaa
+drink,Armageddon, armageddon,Baly rum, 50 ml, Malibu, 30 ml, Grenadyna, 20 ml, Sok z mango, 100 ml, Sok pomaranczowy, 100 ml, Sok z cytryny, 25 ml, Lod,,,,aaa
+drink,Ground Zero, ground_zero, Blue curacao, 25 ml, Sok z mango, 100 ml, Bialy rum, 50 ml, Syrop cukrowy, 25 ml, Sok z cytryny, 25ml, Sk wisniowy, 100 ml, Lod,,,,aaa
+drink,Gangsta's Paradise, gangstas_paradise, Bialy rum, 50 ml, Malibu, 30 ml, Sok z czarnej porzeczki, 150 ml, Sok pomaranczowy, 150 ml, Lod,,,,,,,,aaa
+drink, Zar Tropikow, zar_tropikow, Grenadyna, 20 ml, Bialy rum, 50 ml, Blue curacao, 50 ml, Sok pomaranczowy, 300 ml, Lod,,,,,,,,aaa
+drink, Dirty Dancing, dirty_dancing, Bialy rum, 50 ml, Sok z cytry, 50 ml, Grenadyna, 30 ml, Sprite, Plasterek cytryny, do dekoracji, Lod,,,,,,,aaa
+drink, One On One, one_one_one, Bialy rum, 50 ml, Malibu, 50 ml, Sok ananasowy, Lod,,,,,,,,,,,aaa
+drink, Mojito Z Ogorkiem I Imbirem, mojito_z_ogorkiem_i_imbirem, Bialy rum, 40 ml, Limonka, polowa, Cukier brazowy, 2 lyzeczki, Mieta, kilka listkow, Dwa plasterki ogorka i kawalek imbiru, do dekoracji, Sprite, do dopelnienia, Lod,,,,aaa
+drink, Red Fruit Mojito, red_fruit_mojito, Bialy rum, 40 ml, Limonka, polowa, Cukier brazowy, 2 lyzeczki, Mieta, kilka listkow, pestki granata, , Truskawki, dwie sztuki, Sprite, do dopelnienia, Lod,,aaa
+drink, Born In The USA, born_in_the_usa, Bialy rum, 50 ml, Blue curacao, 50 ml, Sok grejfrutowy, 70 ml, Lod,,,,,,,,,,aaa
+drink, Cruel Summer, cruel_summer, Bialy rum, 50 ml, Malibu, 20 ml, Sok z cytryny, lyzeczka, Sok ananasowy, do dopelnienia, Grenadyna lub syrop malinowy, do dopelnienia, Lod,,,,,,aaa
+drink, Man In The Mirror, man_in_the_mirror,Bialy rum, 50 ml, Sok ananasowy, 150 ml, Sok z czarnej porzeczki, 70 ml, Lod,,,,,,,,,,aaa
+drink, Ready Or Not, ready_or_not, Bialy rum, 100 ml, Malibu, 50 ml , Blue curacao, kilka kropli do kazdego kieliszka, Lod,,,,,,,,,,aaa
+drink, Firestarter, firestarter, Bialy rum, 50 ml, Grenadyna, 20 ml, Sok z czarnej porzeczki, 100 ml, Sok grejfrutowy, do dopelnienia, Lod,,,,,,,,aaa
+drink, Riverside, riverside, Wodka, 50 ml, Sok z cytryny, 15 ml, Sok bananowy, 100 ml, Sok pomaranczowy, 50 ml, Grenadyna, 15 ml, Lod,,,,,,aaa
+drink, The Time Of My Life, the_time_of_my_life, Wodka, 50 ml, Wermut, 30 ml, Sok kaktusowy, 150 ml, Sok grejfrutowy, 50 ml, Lod,,,,,,,,aaa
+drink, Viper, viper, Bialy rum, 100 ml, Sok ananasowy, 100 ml, Sok pomaranczowy, 100 ml, Blue curacao, 20 ml, Lod,,,,,,,,aaa
+drink, Kiwi Daiquiri, kiwi_daiquiri, Bialy rum, 80 ml, Sok z limonki, 40 ml, Syrop cukrowy, 20 ml, Kiwi, polowa, Lod,,,,,,,,aaa
+drink, Under The Bridge, under_the_bridge, Bialy rum, 50 ml, Wodka, 50 ml, Grenadyna, 20 ml, Sok z cytryny, 40 ml , Cola, do dopelnienia, Plasterek cytryny, do dekoracji, Lod,,,,aaa
+drink, Dzidzi, dzidzi, Wodka, 50 ml, Wermut, 100 ml, Sok wisniowy, 50 ml, Lod,,,,,,,,,,aaa
+drink, Paradise City, paradise_city, Sok pomaranczowy, 120 ml, Blue curacao, 30 ml, Wodka, 70 ml, Sok z cytryny, 40 ml, Sok pomaranczowy, 150 ml, Lod,,,,,,aaa
+drink, Cotton Eye Joe, cotoon_eye_joe, Wodka, 50 ml, Malibu, 50 ml, Sok bananowy, 150 ml, Sok pomaranczowy, 100 ml, Lod ,,,,,,,,aaa
+drink, Freestyler, freestyler, Wodka orzechowa, 50 ml, Sok bananowy, 100 ml, Blue curacao, lyzeczka, Lod,,,,,,,,,,aaa
+drink, Let's Dance, lets_dance, Wodka wisniowa, 50 ml, Sok jablkowy, 100 ml, Sok grejfrutowy, 50 ml, Lod,,,,,,,,,,aaa
+drink, Zabojcza Bron, zabojcza_bron, Wodka cytrynowa, 70 ml, Pestka z granatu, dwie lyzki, Sok z mango, 300 ml, Lod,,,,,,,,,,aaa
+drink, Footloose, footloose, Wodka, 50 ml, Sok grejfrutowy, 100 ml, Sok pomaranczowy, 50 ml, Sprite, do dopelnienia, Lod,,,,,,,,aaa
+drink, Mroczny Rycerz, mroczny_rycerz, Wodka cytrynowa, 50 ml, Sok z cytryny, cwiarta, Blue curacao, 20 ml, Cola , do dopelnienia, Pomarancza, do dekoracji, Lod,,,,,,aaa
+drink, Bailamos, bailamos, Wodka, 50 ml, Sok z granatu, 100 ml, Sok pomaranczowy, 100 ml, Pomarancza, plaster, Mieta, do dekoracji, Lod,,,,,,aaa
+drink, November Rain, november_rain, Wodka wisniowa, 50 ml, Sok z cyryny, cwiartka, Cola, do dopelnienia, Lod,,,,,,,,,,aaa
+drink, Invisible Man, invisible_man, Wodka orzechowa, 50 ml, Mleczko skondensowane nieslodzone, 100 ml, Kawa rozpuszczalna, lyzeczka, Lod,,,,,,,,,,aaa
+drink, Boombastic, boombastic, Wodka malinowa, 50 ml, Mieta, 4 listki, Pomarancza, plaster, Sprite, do dopelnienia, Lod,,,,,,,,aaa
+drink, Toy Soldier, toy_soldier, Wodka czarna porzeczka, 50 ml, Sok zurawinowy, 100 ml, Sok z grejfrutowy, 100 ml, Sok pomaranczowy, 50 ml, Lod,,,,,,,,aaa
+drink, Johny Bravo, johny_bravo, Wodka czarna porzeczka, 70 ml, Sok z cytryny, 20 ml, Sok pomaranczowy, 70 ml, Sok grejfrutowy, 50 ml, Grenadyna, 20 ml, Lod,,,,,,aaa
+drink, Satisfaction, satisfaction, Wodka sliwkowa, 50 ml, Grenadyna, 20 ml, Sok z cytryny, 20 ml, Sok pomaranczowy, 150 ml, Lod,,,,,,,,aaa
+drink, Yattaman(serio dobry drink),yattaman, Wodka pigwowa,50 ml, Sok z cytryny, 25 ml, Cola, do dopelnienia, Lod,,,,,,,,,,aaa
+drink, Lowca Androidow, lowca_androidow, Woda sliwkowa, 70 ml, Sok z cytryny, cwiartka, Tonik, do dopelnienia, Lod,,,,,,,,,,aaa
+drink, Smells Like Teen Spirit, smells_like_teen_spirit, Wodka, 50 ml, Malibu, 30 ml, Sok kaktusowy, 100 ml, Sok bananowy, 100 ml, Blue curacao, 5 ml, Lod,,,,,,aaa
+drink, Smooth Criminal, smooth_criminal, Wodka, 50 ml, Brzoskwinia z puszki, polowa, Mieta, od 5 do 6 listkow, Sprite, Lod,,,,,,,,,aaa
+drink, Two Princes, two_princes, Wodka malinowa, 50 ml, Grenadyna, 20 ml, Sok z cytryny, 40 ml, Woda gazowana, do dopelnienia, Mieta, do dekoracji, Lod,,,,,,aaa
+drink, Devil Inside, devil_inside, Wodka, 50 ml, Sok z granatu, 150 ml, Sok grejfrutowy, 100 ml, Grenadyna, 20 ml, Lod,,,,,,,,aaa
+drink, Upior W Operze, upior_w_operze, Wodka, 50 ml, Blue curacao, 70 ml, Sok z cyryny, 40 ml, Sok grejfrutowy, 100 ml, Sok pomaranczowy, 150 ml, Lod,,,,,,aaa
+drink, Palm Bay, palm_bay, Wodka pigwowa, 50 ml, Sok pomaranczowy, 70 ml, Sok ananasowy, 100 ml, Sok z cyryny, 20 ml, Lod,,,,,,,,aaa
+drink, Casino Royale, casino_royale, Wodka, 50 ml, Blue curacao, 30 ml, Sok pomaranczowy, 100 ml, Lod,,,,,,,,,,aaa
+drink, South Park, south_park, Wodka, 70 ml, Malibu, 20 ml, Sok pomaranczowy, 50 ml, Sok z czarnej porzeczki, 50 ml, Grenadyna,20 ml, Lod,,,,,,aaa
+drink, Sloneczny Patrol, sloneczny_patrol, Wodka, 50 ml, Wermut, 50 ml, Sok z mango, 100 ml, Sok grejfrutowy, 50 ml, Grenadyna, lyzka, Pomarancza i mieta do dekoracji, Lod,,,,,aaa
+drink, Step By Step, step_by_step, Wodka, 50 ml, Blue curacao, 15 ml, Pomarancza, dwa plastry, Tonik,do dopelnienia,Lod,,,,,,,,aaa
+drink, Stand By Me, stand_by_me, Wodka, 50 ml, Sok wisniowy, 150 ml, Sok z cytryny, 20 ml, Sok pomaranczowy, 50 ml, Lod,,,,,,,,aaa
+drink, Little Rock, little_rock, Wodka,50 ml, Wodka cytrynowa, 50 ml, Sok grejfrutowy, 50 ml, Lod,,,,,,,,,,aaa
+drink, Pigwowe Kamikaze, pigwowe_kamikaze, Wodka pigwowa, 40 ml, Blue curacao, 40 ml, Sok z cytryny, 40 ml, Lod,,,,,,,,,,aaa
+drink, Walk Of Life, walk_of_life, Wodka, 50 ml, Syrop malinowy, 20 ml, Sok wisniowy, 100 ml, Tonik, do dopelnienia, Lod,,,,,,,,aaa
+drink, Coco Extazy, coco_extazy, Blue curacao, 70 ml, Wodka, 40 ml, Malibu, 40 ml, Sok ananasowy, 150 ml, Lod,,,,,,,,aaa
+drink, Cast Away, cast_away, Wodka cytrynowa, 50 ml, Sok grejfrutowy, 100 ml, Sok jablkowy, 50 ml, Blue curacao, 20 ml, Lod,,,,,,,,aaa
+drink, Costa Mesa(zawsze w sercu) , costa_mesa, Blue curacao, 20 ml, Sok pomaranczowy, 100 ml, Wodka, 50 ml, Syrop cukrowy, 25 ml, Sok z cytryny, 75 ml, Wodka, 50 ml, Grenadyna, 20 ml, Lod,,aaa
+drink, La Bamba, la_bamba, Sok pomaranczowy, 100 ml, Syrop cukrowy, 20 ml, Sok z czarnej porzeczki, 200 ml, Sok z cytryny, 30 ml, Wodka, 100 ml, Owoce, do dekoracji, Lod,,,,aaa
+drink, Renegat, renegat, Wodka, 50 ml, Sok zurawinowy, 100 ml, Sok grejfrutowy, 50 ml, Grenadyna, 20 ml, Lod,,,,,,,,aaa
+drink, Billie Jean, billie_jean, Wodka, 100 ml, Sok pomaranczowy, 30 ml, Blue curacao, 20 ml, Lod,,,,,,,,,,aaa
+drink, Part-Time Lover, part_time_lover, Wodka, 50 ml, Grenadyna, 20 ml, Sok grejfrutowy, 150 ml, Tonik, do dopelnienia, Lod,,,,,,,,aaa
+drink, White Russian, white_russian, Wodka, 50 ml, Likier kahlua, 30 ml, Smietanka do kawy, 20 ml, Lod,,,,,,,,,,aaa
+drink, Black Russian, black_russian, Wodka, 70 ml, Likier kahlua, 30 ml, Lod,,,,,,,,,,,,aaa
+drink, Samba De Janeiro, samba_de_janeiro, Blue curacao, 50 ml, Sok grejfrutowy, 150 ml, Wodka, 50 ml, Sok pomaranczowy, do dopelnienia, Lod,,,,,,,,aaa
+drink, Miami Vice, miami_vice, Wodka, 50 ml, Grenadyna, 15 ml, Sok z czarnej porzeczki, 150 ml, Tonik, do dopelnienia, Lod,,,,,,,,aaa
+drink, Private Dancer, private_dancer, Wodka, 50 ml, Blue curacao, 30 ml, Sok z cytryny, z cwiartki, Sprite, do dopelnienia, Lod,,,,,,,,aaa
+drink, Krwawa Mary, krwawa_mary, Wodka, 40 ml, Sok z cytryny 15 ml, Sos worcestershire, kilka kropli, Tabasco, kilka kropli, Sok pomidorowy, do uzupelnienia, Sol selerowa,,Pieprz,,Lod,,,aaa
+drink, Teraz Polska, teraz_polska, Syrop malinowy, 15 ml, Wodka, 15 ml, Sok z cytryny, kilka kropli, Lod,,,,,,,,,,aaa
+drink, Daiquiri, daiquiri, Bialy rum, 40 ml, Sok z limonki, 20 ml, Syrop cukrowy, 5 ml, Lod,,,,,,,,,,aaa
+drink, Sex On The Beach, sex_on_the_beach, Wodka, 40 ml, Likier brzoskwiniowy, 20 ml, Sok pomaranczowy, 40 ml, Sok zurawinowy, 40 ml, Lod,,,,,,,,aaa
+drink, Cosmopolitan, cosmopolitan, Wodka cytrynowa, 40 ml, Likier triple sec, 15 ml, Sok z cytryny, 15 ml, Sok zurawinowy, 30 ml, Lod,,,,,,,,aaa
+drink, Margarita, margarita, Srebna tequila, 40 ml, Likier triple sec, 20 ml, Sok z cytryny, 15 ml, Sol i sok z cytryny, do zrobienia crusty, Lod,,,,,,,,aaa
+drink, Tequila Sunrise, tequila_sunrise, Srebna tequila, 40 ml, Sok pomaranczowy, do uzupelniania, Grenadyna, lyzka, Lod,,,,,,,,,,aaa
+drink, Long Island Iced Tea, long_island_iced_tea, Wodka, 20 ml, Srebna tequila, 20 ml, Bialy rum 20 ml, Gin, 20 ml, Likier triple sec, 20 ml, Syrop cukrowy, 20 ml, Sok z cytryny, 40 ml, Cola, do uzupelnienia, Lod,aaa
+drink, Martini, martini, Gin, 50 ml, Wermut, 15 ml, Oliwki,,Lod,,,,,,,,,,aaa
+drink, Mojito, mojito,Bialy rum, 40 ml, Limonka, pol sztuki, Cukier brazowy, 2 lyzeczki, Mieta, kilka listkow, Woda gazowana, do dopelnienia, Lod,,,,,,aaa
+drink, Wsciekly Pies, wsciekly_pies, Wodka, 20 ml, Syrop malinowy, 10 m, Tabasco, kilka kropli,,,,,,,,,,,aaa
+drink, Pina Colada, pina_colada, Bialy rum, 30 ml, Mleczko skondensowane nieslodzone, 20 ml, Syrop kokosowy, 20 ml, Sok ananasowy, 90 ml, Lod,,,,,,,,aaa
+dodatek, Domowy Syrop Cukrowy, domowy_syrop_cukrowy, Bialy cukier, szklanka, Wrzatek, szklanka,,,,,,,,,,,,,aaa
+drink, Cuba Libre, cuba_libre, Bialy rum, 40 ml, Limonka, cwierc sztuki, Cola, do dopelnienia, Lod,,,,,,,,,,aaa
+drink, B-52, b_52, Likier kahlua, 10 ml, Likier baileys, 10 ml ,Likier triple sec, 10 ml,,,,,,,,,,,aaa
+shot, Smoke On The Water, smoke_on_the_water, Syrop karmelowy, jedna trzecia kieliszka, Likier truskawkowy, dwie trzecie kieliszka ,,,,,,,,,,,,,aaa
+drink, Blue Kamikaze, blue_kamikaze, wodka, 40 ml, Blue curacao, 40 ml, Sok z cytryny, 40 ml, Lod,,,,,,,,,,aaa
+shot, Nevermind, nevermind, Blue curacao, po 5 ml, Likier kahlua, 50 ml, Likier cointreau, 30 ml,,,,,,,,,,,aaa
+shot, Milosc Szmaragd I Krokodyl, milosc_szmaragd_i_krokodyl, Syrop pistacjowy, jedna czwarta, Likier czekoladowo-mietowy, dwie czwarte, Mleczko skondensowane nieslodzone, jedna czwarta ,,,,,,,,,,,aaa
+shot, Maskarada, maskarada, Syrop jagodowy, jedna czwarta, Likier truskawkowy, dwie czwarte, Mleczko skondensowane nieslodzone, jedo czwarte,,,,,,,,,,,aaa
+shot, Antidotum, antidotum, Syrop czekoladowy, 5 ml do kazdego kieliszka, Wodka orzechowa, 50 ml, Likier czekoladowy, 50 ml, Mleczko skondensowane nieslodzone, po 5 ml do kazdego kieliszka,,,,,,,,,aaa
+shot, Poker Face, poker_face, Likier kahlua, 50 ml, Malibu, 20 ml, Mleczko skondensowane nieslodzone, po 5 ml do kazdego kieliszka,,,,,,,,,,,aaa
+shot, Toxic, toxic, Syrop brzoskwiniowy, jedna trzecia, Likier pomaranczowy, jedna trzecia, Wodka zurawinowa, jedna trzecia,,,,,,,,,,,aaa
+shot, Under Pressure, under_pressure, Syrop jagodowy, jedna czwarta, Likier kokosowy , trzy czwarte,,,,,,,,,,,,,aaa
+shot, Lady Dynamite, lady_dynamite, Rum, 50 ml, Sok z mango, 70 ml, Blue curacao, po kilka kropli do kazdego kieliszka,,,,,,,,,,,aaa
+shot, Pina Colada XS, pina_colada_xs, Syrop ananasowy, jedna trzecia, Likier kokosowy, dwie trzecie,,,,,,,,,,,,,aaa
+shot, Wsciekly Pies, wsciekly_pies_shoty, Syrop malinowy, 10 ml, Wodka, 20 ml, Tabasco, kilka kropli,,,,,,,,,,,aaa
+shot, Welcome To The Jungle, welcome_to_the_jungle, Syrop truskawkowy, jedna trzecia, Likier melonowy, dwie trzecie,,,,,,,,,,,,,aaa
+shot, Wsciekla Papuga, wsciekla_papuga, Syrop ananasowy, 10 ml, Wodka, 20 ml, Tabascko, kilka kropli,,,,,,,,,,,aaa
+shot, Bandyta, bandyta, Syrop czekoladowy, jedna trzecia, Likier bananowy, dwie trzecie,,,,,,,,,,,,,aaa
+shot, Alien Brain Hemorrhage,  alien_brain_herrhage, Likier brzoskwiniowy, jedna druga, Likier baileys, jedna czwarta, Blue curacao, kilka kropli, Grenadyna, kilka gropli,,,,,,,,,aaa
+shot, Animusz, animusz, Wodka gruszkowa, 50 ml, Sok pomaranczowy, 50 ml, Syrop czekoladowy, po 5 ml do kazdego kieliszka, krem czekoladowy, do dekoracji,,,,,,,,,aaa
+shot, No Way Out, no_way_out, Syrop mango, jedna trzecia, Likier kahlua, jedna trzecia, Likier Baileys, jedna trzecia,,,,,,,,,,,aaa
+shot, I Will Wait, i_will_wait, Grenadyna, jedna trzecia, Likier archers, jedna trzecia, Wodka, jedna szosta, Sok zurawinowy, jedna szosta,,,,,,,,,aaa
+shot, Malpi Mozg, malpi_mozg, Likier archers, jedna druga, Likier baileys, jedna drga, Grenadyna, kilka kropli,,,,,,,,,,,aaa
+shot, After The Storm, after_the_storm, Wodka, 70 ml, Sok bananowy, 50 ml, Blue curacao, kilka kropli,,,,,,,,,,,aaa
+shot, Awake My Soul, awake_my_soul, Syrop pistacjowy, jedna trzecia, Likier baileys, dwie trzecie,,,,,,,,,,,,,aaa
+shot, Snake Eyes, snake_eyes, Zubrowka, 50 ml, Sok ananasowy, 70 ml, Blue curacao, jedna czwarta,,,,,,,,,,,aaa
+shot, Twoja Generacja, twoja_generacja, Blue curacao, jedna czwarta, Likier pomaranczowy,trzy czwarte,,,,,,,,,,,,,aaa
+shot, Imagination, imagination, Syrop pomaranczowy, jedna trzecia, Likier melonowy, dwie trzecie,,,,,,,,,,,,,aaa
+shot, Mad Love, mad_love, Blue curacao, jedna trzecia, Likier korzenno-miodowy Krupnik, dwie trzecie, Blue curacao, do dekoracji, Imbir mielony, do dekoracji,,,,,,,,,aaa
+shot, Zanim Pojde, zanim_pojde, Likier amaretto, 20 ml, Rum, 50 ml, Sok z mango, 70 ml, Syrop czekoladowy, 5 ml,,,,,,,,,aaa
+shot, Wodospad, wodospad, Blue curacao, jedna trzecia, wodka, dwie trzecie, Sok z cytryny, kilka kropli,,,,,,,,,,,aaa
+shot, Ruletka, ruletka, Syrop czekoladowy, 5 ml, Likier kokosowy, 30 ml, Syrop czekoladowy , do dekoracji, Mielona czekolada, do dekoracji,,,,,,,,,aaa
+shot, Czwarta Nad Ranem, czwarta_nad_ranem, Wodka, 50 ml, Sok z mango, 100 ml, Grenadyna, kilka kropli,,,,,,,,,,,aaa
+shot, Chmurka, chmurka, Wodka, jedna druga, Likier archers, jedna druga, Skondensowane mleczko nieslodzone, kilka kropli,,,,,,,,,,,aaa
+shot, Bumelant, bumelant, Likier kahlua, 50 ml, Likier cointreau, 50 ml, Mleczko skondensowane nieslodzone, 50 ml,,,,,,,,,,,aaa
+shot, Guilty, guilty, Rum, 50 ml, Sok wisniowy, 100 ml, Syrop czekoladowy, 5 ml, Kakao, do dekoracji, Czerwony syrop, do dekoracji,,,,,,,aaa
+shot, Freeze Me, freeze_me, Gin, 50 ml, Sok z czarnej porzeczki, 70 ml, Sok z cytryny, 30 ml,,,,,,,,,,,aaa
+shot, Undercover, undercover, Gin, 50 ml, Sok kaktusowy, 100 ml, Sok z cytryny, 20 ml,,,,,,,,,,,aaa
+shot, Anywhere, anywhere, Tequila silver, 50 ml, Sok z granatu, 100 ml, Grenadyna, 10 ml,,,,,,,,,,,aaa
+shot, Stolen Dance, stolen_dance, Likier czekoladowy, 50 ml, Likier amaretto, 20 ml, Mleczko skondensowane nieslodzone, 50 ml, Syrop czekoladowy i kakao, do dekoracji,,,,,,,,,aaa
+shot, Crazyhead, crazyhead, Likier pomaranczowy, 70 ml, Likier archers, 50 ml, Mleczko skondensowane nieslodzone, 50 ml,,,,,,,,,,,aaa
+shot, Wonderland, wonderland, Wodka pomaranczowa, 50 ml, Sok kaktusowy, 70 ml, Blue curacao, 10 ml,,,,,,,,,,,aaa
+shot, Flaming, flaming, Likier truskawkowy, 50 ml, Malibu, 30 ml, Mleczko skondensowane nieslodzone, 50 ml, Czerwony syrop, do dekoracji, Wiorki kokosowe, do dekoracji,,,,,,,aaa
+shot, Orzech & Orzech, orzech_and_orzech, Syrop orzechowy, 5 ml, Likier czekoladowy, jedna druga, Wodka orzechowa, jedna druga,,,,,,,,,,,aaa
+shot, Little Lion, little_lion, Syrop czekoladowy, 5 ml, Sok pomaranczowy, 30 ml, Wodka, 70 ml, Sok z cytryny, 5 ml,,,,,,,,,aaa
+shot, B-52, b_52_shoty, Likier kahlua, jedna trzecia ,Likier baileys, jedna trzecia ,Likier cointreau, jedna trzecia ,,,,,,,,,,,aaa
+shot, Marcelo, marcelo, Blue curacao, jedna czwarta, Likier mietowy, dwie czwarte, Wodka pomaranczowa, jedna czwarta,,,,,,,,,,,aaa
+shot, Winter Winds, winter_winds, Malibu, 50 ml, Sok bananowy, 50 ml, Syrop czekoladowy, 50 ml,,,,,,,,,,,aaa
+shot, After Eight, after_eight, Syrop czekoladowy, jedna czwarta, Likier mietowy, jedna druga, Mleczko skondensowane nieslodzone, jedna czwarta,,,,,,,,,,,aaa
+shot, O-Cookie Shot, o_cookie_shot,Syrop czekoladowy, jedna trzecia, Bialy rum , jedna trzecia, Mleczko skondensowane nieslodzone, Syrop czekoladowy, do dekoracji, Starta czekolada, do dekoracji,,,,,,,,aaa
+shot, Palermo, palermo, Likier korzenno-miodowy, 50 ml, Sok z mango, 100 ml, Sok z cytryny, do dekoracji, Cukier, do doekoracji,,,,,,,,,aaa
+shot, BCC, bcc, Blue curacao, 5 ml, Wodka cytrynowa, 25 ml,,,,,,,,,,,,,aaa
+shot, Tacoma, tacoma, Wodka gruszkowa, 50 ml, Sok wisniowy, 70 ml, Sok z cytryny, 20 ml,,,,,,,,,,,aaa
+shot Pasadena, pasadena, Wodka pomaranczowa, 70 ml, Sok ananasowy, 50 ml, Sok z mango, 100 ml,,,,,,,,,,,,aaa
+shot, Charlotte, charlotte, Likier korzenno-miodowy, 50 ml, Likier kahlua, 50 ml, Mleczko skondensowane nieslodzone, 50 ml, Krem czekoladowy, do dekoracji,,,,,,,,,aaa
+shot, Talizman, talizman, Zubrowka, 50 ml, Malibu, 30 ml, Sok z mango, 70 ml, Sok z cytryny, 10 ml, Syrop mango, do dekoracji, Kakao, do dekoracji,,,,,aaa
+shot, Fargo, fargo, Blue curacao, 20 ml, Likier korzenno-miodowy, 50 ml, Sok jablkowy, 100 ml,,,,,,,,,,,aaa
+shot, Pueblo, pueblo, Wodka pomaranczowa, 50 ml, Sok pomaranczowy, 50 ml, Sok ananasowy, 50 ml, Syrop mango, 20 ml,,,,,,,,,aaa
+shot, Radioactive, radioactive, Likier cointreau, 100 ml, Mleczko skondensowane nieslodzone, 50 ml,Blue curacao, 20 ml,,,,,,,,,,,aaa
+shot, No Roots, no_roots, Wodka orzech laskowy, 50 ml, Likier czekoladowy, 20 ml, Mleczko skondensowane nieslodzone, 30 ml, Syrop czekoladowe i zmielone orzechy, do dekoracji,,,,,,,,,aaa
+shot, Alimos, alimos, Tequila silver, 30 ml, Blue curacao, 40 ml, Sok bananowy, 50 ml, Sok ananasowy, 50 ml,,,,,,,,,aaa
+shot, In My Blood, in_my_blood, Wodka grejfrutowa, 50 ml, Sok zurawinowy, 70 ml, Grenadyna, 10 ml, Sok z cytryny, 10 ml,,,,,,,,,aaa
+shot, Arezzo, arezzo, Likier kahlua, 50 ml, Mleczko skondensowane nieslodzone, 50 ml, Syrop korzenny, 10 ml,,,,,,,,,,,aaa
+shot, Flames, flames, Likier cointreau, 50 ml, Likier amaretto, 20 ml, Sok wisniowy, 80 ml, Sok z cytryny, 10 ml,,,,,,,,,aaa
+shot, Belluno, belluno, Malibu, 50 ml, Sok z granatu, 50 ml, Sok pomaranczowy, 50 ml,,,,,,,,,,,aaa
+shot, Como, como, Tequila silver, 50 ml, Blue curacao, 30 ml, Sok pomaranczowy, 100 ml,,,,,,,,,,,aaa
+shot, Demons, demons, Wodka gruszkowa, 50 ml, Wodka , 50 ml, Sok pomaranczowy, 100 ml,,,,,,,,,,,aaa
+shot, One Kiss, one_kiss, Wodka malinowa, 50 ml, Rum, 50 ml, Sok z granatu, 50 ml,,,,,,,,,,,aaa
+shot, Be Mine, be_mine, Blue curacao, 50 ml, Wodka gruszkowa, 50 ml, Sok pomaranczowy, 50 ml,,,,,,,,,,,aaa
+shot, Coming Home, coming_home, Gin, 50 ml, Wodka cytrynowa, 50 ml, Sok zurawinowy, 100 ml, cukier i grenadyna lub syrop malinowy, do dekoracji,,,,,,,,,aaa
+shot, Bella, bella, Zubrowka, 50 ml, Sok bananowy, 70 ml, Syrop mango, 20 ml, Syrop mango i kakao, do dekoracji,,,,,,,,,aaa
+shot, Titanium, titanium, Wodka, 70 ml, Sok ananasowy, 70 ml, Syrop mango, 20 ml,,,,,,,,,,,aaa
+shot, Despacito, despacito, Wodka cytrynowa, jedna druga, Blue curacao, jedna druga, cukier, do dekoracji,,,,,,,,,,,aaa
+shot, Lost On You, lost_on_you, Wodka gruszkowa, 50 ml, Malibu, 30 ml, Sok zurawinowy, 50 ml, Sok z cytryny, 20 ml,,,,,,,,,aaa
+shot, Sky, sky, Gin, 75 ml, Sok z cytryny, 25 ml, Blue curacao, 25 ml,,,,,,,,,,,aaa
+shot, Sleep, sleep, Wodka truskawkowa, 50 ml, Wodka, 20 ml, Sok z mango, 80 ml, Grenadyna lub syrop truskawkowy oraz cukier, do dekoracji,,,,,,,,,aaa
+shot, Zielone Wzgorza, zielone_wzgorza, Gin, 50 ml, Likier mietowy, 50 ml, Sok z cytryny, 50 ml,,,,,,,,,,,aaa
+shot, Elastic Heart, elastic_heart, Wodka ananasowa, 80 ml, Sok zurawinowy, 50 ml, Grenadyna, 10 ml, Sok z cytryny, 10 ml,,,,,,,,,aaa
+shot, Heart Of Glass, heart_of_glass, Zubrowka, 50 ml, Sok bananowy, 80 ml, Blue curacao, 20 ml,,,,,,,,,,,aaa
+shot, Proud Mary, proud_mary, Wodka, 50 ml, Likier brzoskwiniowy, 50 ml, Sok zurawinowy, 50 ml,,,,,,,,,,,aaa
+shot, Place On Earth, place_on_earth, Zubrowka, 50 ml, Sok pomaranczowy, 70 ml, Syrop imbirowy, 20 ml,,,,,,,,,,,aaa
+shot, Trapped, trapped, Gin, 20 ml, Blue curacao, 50 ml, Sok z cytryny, 50 ml, Syrop mango, 20 ml,,,,,,,,,aaa
+shot, Monte, monte, Wodka o smaku orzechow laskowych, jedna druga, Mleczko skondensowane nieslodzone, jedna druga, Syrop orzechowy i starta czekolada, do dekoracji,,,,,,,,,,,aaa
+shot, Salem, salem, Zubrowka, 50 ml, Sok jablkowy, 70 ml, Syrop kolorowy i cynamon, do dekoracji,,,,,,,,,,,aaa
+shot, Ananasowe Kamikaze, ananasowe_kamikaze, Wodka ananasowa, 40 ml, Blue curacao, 40 ml, Sok z cytryny, 40 ml, Lod,,,,,,,,,,aaa
+shot, Conga, conga, Wodka porzeczkowa, 50 ml, Gin, 50 ml, Sok z cytryny, 10 ml, Sok pomaranczowy, 40 ml, Lod,,,,,,,,aaa
+shot, Bones Of Love, bones_of_love, Wodka ananasowa, 40 ml, Malibu, 20 ml, Sok ananasowy, 60 ml, Lod,,,,,,,,,,aaa
+shot, Tiramisu, tiramisu, Likier kahlua, 80 ml, Likier baileys, 40 ml, Mleczko skondensowane nieslodzone, 40 ml, Likier migdalowy, 10 ml, Syrop migdalowy i zmielona kawa, do dekoracji,,,,,,,aaa
+shot, Bamboleo, bamboleo, Wodka, 50 ml, Blue curacao, 30 ml, Sok pomaranczowy, 50 ml, Sok z cytryny, 10 ml, Blue curacao, kilka kropli, Lod,,,,,,aaa
+shot, Hold The Line, hold_the_line, Wodka truskawkowa, 50 ml, Wodka pomaranczowa, 50 ml, Sok pomaranczowy, 50 ml, Sok z cytryny, 10 ml, Lod, Sos truskawkowy i kakao, do dekoracji,,,,,,aaa
+shot, Take It Easy, take_it_easy, Wodka sliwkowa, 50 ml, Wodka, 50 ml, Sok z cytryny, 50 ml, Grenadyna, 20 ml,,,,,,,,,aaa
+shot, Rabiosa, rabiosa, Wodka, 50 ml, Likier mietowy, 50 ml, Sok z cytryny, 50 ml,,,,,,,,,,,aaa
+shot, Endless Summer, endless_summer, Wodka truskawkowa, 50 ml, Sok z cytryny, 40 ml, Sok bananowy, 70 ml,,,,,,,,,,,aaa
+shot, Paper Planes, paper_planes, Malibu, 50 ml, Blue curacao, 20 ml, Sok ananasowy, 80 ml, Sok z cytryny, 20 ml, Lod,,,,,,,,aaa
+shot, Bang A Drum, bang_a_drum, Wodka ananasowa, 50 ml, Malibu, 50 ml, Likier cointreau, 50 ml, Sok bananowy, 30 ml,,,,,,,,,aaa
+shot, Dead Or Alive, dead_or_alive, Wodka truskawkowa, 50 ml, Malibu, 20 ml, Sok zurawinowy, 50 ml, Sok z cytryny, 20 ml, Lod,,,,,,,,aaa
+shot, One More Song, one_more_song, Wodka porzeczkowa, 50 ml, Tequila silver, 50 ml, Sok z cytryny, 50 ml,,,,,,,,,,,aaa
+shot, Shake It, shake_it, Wodka cytrynowa, 50 ml, Blue curacao, 10 ml, Sok pomaranczowy, 50 ml, Sok bananowy, 30 ml,,,,,,,,,aaa
+shot, Sunrise XS, sunrise_xs, Wodka, jedna druga, Sok pomaranczowy, jedna druga, Grenadyna, kilka kropli,,,,,,,,,,,aaa
+shot, Acapulco, acapulco, Likier czekoladowy, 50 ml, Likier kahlua, 50 ml, Sok bananowy, 50 ml,,,,,,,,,,,aaa
+shot, Blue Stories, blue_stories, Blue curacao, 50 ml, Likier baileys, 40 ml, Mleczko skondensowane nieslodzone, 40 ml, Wodka, 50 ml,,,,,,,,,aaa
+shot, Blue Kamikaze, blue_kamikaze_shoty, Wodka, 40 ml, Blue curacao, 40 ml, Sok z cytryny, 40 ml, Lod,,,,,,,,,,aaa
+dodatek, Jak Zrobic Cruste, jak_zrobic_cruste,,,,,,,,,,,,,,,,,aaa
+shot, Smak Raju, smak_raju, Malibu, 100 ml, Mleczko skondensowane nieslodzone, 40 ml, Likier czekoladowe, 30 ml, Syrop czekoladowe i kakao,,,,,,,,,,aaa
+shot, Jump, jump, Wodka pomaranczowa, 70 ml, Malibu, 50 ml, Sok pomaranczowy, 30 ml, Krem czekoladowy, do dekoracji,,,,,,,,,aaa
