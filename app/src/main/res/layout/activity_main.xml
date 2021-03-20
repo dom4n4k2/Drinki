@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/tlo"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
 
     <TextView
         android:id="@+id/textView"
@@ -18,6 +20,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:textColor="@color/text_color"
+
 
  />
 
@@ -32,6 +35,7 @@
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:onClick="main_update_button_void"
+        android:visibility="invisible"
   />
 
     <Button
@@ -45,6 +49,7 @@
         android:layout_marginTop="100dp"
         android:layout_below="@+id/textView"
         android:onClick="main_clear_button_void"
+        android:visibility="invisible"
         />
 
 
@@ -52,34 +57,40 @@
 
     <ImageButton
         android:id="@+id/drinks_button_main"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+
         android:padding="0dp"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/drink"
+        app:srcCompat="@drawable/drink_button"
         android:onClick="main_drinks_button_void"/>
+
 
     <ImageButton
         android:id="@+id/shots_button_main"
-        android:layout_width="140dp"
-        android:layout_height="100dp"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
         android:padding="0dp"
+        android:layout_centerVertical="true"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/shot"
+        app:srcCompat="@drawable/shot_button"
         android:onClick="main_shots_button_void"/>
     <ImageButton
         android:id="@+id/cart_button_main"
-        android:layout_width="90dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+
         android:padding="0dp"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/cart"
+        app:srcCompat="@drawable/dodatki_button"
         android:onClick="main_cart_button_void"/>
 
 

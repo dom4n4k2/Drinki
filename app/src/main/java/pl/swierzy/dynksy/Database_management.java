@@ -4,6 +4,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -100,13 +102,15 @@ public class Database_management extends SQLiteOpenHelper {
         db.update("drinks", wartosci,"nr_drink=?" , args);
     }
 
-    public List<drink_add_class> read_drink() {
+    public List<drink_add_class> read_drink(String typ) {
         List<drink_add_class> drinks_databaseList = new LinkedList<drink_add_class>();
         //String[] columns = {"nr_drink", "nazwa_drink", "photo_drink", "S1_drink", "S2_drink", "S3_drink", "S4_drink", "S5_drink", "S6_drink", "S7_drink", "S8_drink", "Instruction_drink"};
         SQLiteDatabase db = getReadableDatabase();
         //Cursor kursor = db.query("drinks", columns, "nazwa_drink =?", new String[]{"woda"}, null, null, null, null);
         //String sql = "select * from drinks where nazwa_drink ='woda' or nazwa_drink ='bimber'";
-        String sql = "select * from drinks";
+        Log.d("wtf", "input string : " + typ);
+        String sql = "select * from drinks where typ = '"+ typ+"'";
+        //String sql = "select * from drinks";
         Cursor kursor = db.rawQuery(sql, null);
         while (kursor.moveToNext()) {
             drink_add_class drinks_database = new drink_add_class();

@@ -21,14 +21,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void main_update_button_void(View V) {
-
+    //public void main_update_button_void(View V) {
+    public void main_update_button_void() {
         prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
         int database_version = prefs.getInt("database_version",0);
         Context context = this;
         database_content content = new database_content();
         Pair<String, Integer> response_from_csv = content.drink_read_from_csv(context, database_version);
-        Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),response_from_csv.first, Toast.LENGTH_SHORT).show();
         editor = this.prefs.edit();
         editor.putInt("database_version", response_from_csv.second);
         editor.commit();
@@ -50,18 +50,34 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void main_drinks_button_void(View V){
-        Toast.makeText(getApplicationContext(),"DRINKS", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"DRINKS", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(MainActivity.this, drinks.class);
         startActivity(i);
+        prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
+        editor = this.prefs.edit();
+        editor.putString("typ", "drink");
+        editor.commit();
 
     }
 
     public void main_shots_button_void(View V){
-        Toast.makeText(getApplicationContext(),"SHOTS", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"SHOTS", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(MainActivity.this, drinks.class);
+        startActivity(i);
+        prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
+        editor = this.prefs.edit();
+        editor.putString("typ", "shot");
+        editor.commit();
     }
 
     public void main_cart_button_void(View V){
-        Toast.makeText(getApplicationContext(),"CART", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"CART", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(MainActivity.this, drinks.class);
+        startActivity(i);
+        prefs = this.getSharedPreferences("shared_variables",MODE_PRIVATE);
+        editor = this.prefs.edit();
+        editor.putString("typ", "dodatek");
+        editor.commit();
     }
 
     ImageButton drinks;
@@ -81,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-
+        main_update_button_void();
 
         setContentView(R.layout.activity_main);
 

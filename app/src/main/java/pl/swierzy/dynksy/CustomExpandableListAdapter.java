@@ -8,10 +8,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
-
 import java.util.LinkedHashMap;
 import java.util.List;
-
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
@@ -33,6 +31,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     public View getChildView(final int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
 
         final drink_add_class drink = (drink_add_class) getChild(groupPosition, childPosition);
+
 
         if (convertView == null) {
 

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Proste Drinki i Shoty</string>
+    <string name="app_name">Lej Pan</string>
     <string name="update_button_main">UPDATE</string>
     <string name="clear_button_main">CLEAR</string>
     <string name="drinks_button_1"> BACK </string>
-    <string name="start_text">Aplikacja do komponowania drinków i shotów</string>
+    <string name="start_text">Zrób se drina</string>
     <string name="drinks_text">DRINKS</string>
 </resources>

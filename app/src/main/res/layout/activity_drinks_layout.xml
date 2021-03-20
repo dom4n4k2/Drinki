@@ -44,6 +44,7 @@
         android:layout_marginTop="600dp"
         android:layout_below="@+id/textView"
         android:onClick="drinks_back_void"
+        android:visibility="invisible"
  />
 
 
